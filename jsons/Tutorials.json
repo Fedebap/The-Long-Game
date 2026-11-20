@@ -21,7 +21,7 @@
         "text": "• War Weariness and Imperial Strain: wars and overexpansion have a price, shown in the top bar."
       },
       {
-        "text": "• Events: conquests, alliances, golden ages and lost cities ask for decisions."
+        "text": "• Events: declaring war, conquests, alliances, golden ages, lost cities, unrest and natural wonders you discover ask for decisions."
       },
       {
         "text": "• Support units and morale: escort your rams and medics, and watch out for Shaken units."
@@ -39,6 +39,9 @@
       },
       {
         "text": "Universities need an Academy Quarter, Banks a Market Quarter, Workshops an Artisan Quarter and the Grand Temple a Sacred Grove. A city needs 3 population to build a Quarter. Enemies can pillage Quarter tiles."
+      },
+      {
+        "text": "Great People love Quarters: each Quarter (except the Garrison) adds 1 Great Person point per turn (Academy: Scientist, Market: Merchant, Artisan: Engineer, Sacred Grove: Artist), and gets +2 to its yield for every adjacent Great Person improvement (Academy, Manufactory, Customs house, Landmark, Holy site, Citadel)."
       }
     ]
   },
@@ -52,7 +55,7 @@
         "text": "Each Insight works once. Its condition is shown in the technology's description. Insights are checked whenever you finish a technology or any city completes a building."
       },
       {
-        "text": "Early technologies cost 25% more to make up for it: players who explore, build and fight research faster than players who only stack science."
+        "text": "Almost every technology has an Insight. Technologies cost 25% more to make up for it: players who explore, build and fight research faster than players who only stack science."
       }
     ]
   },
@@ -74,10 +77,10 @@
         "text": "War Weariness (top bar) grows while you are at war with major civilizations, when you declare war, lose units, and conquer or lose cities. Every 5 points add +5% unhappiness from population, up to +50%."
       },
       {
-        "text": "At peace it falls each turn, and ending a war halves it. Honor, the Aztecs, the Great Bath and the Total Mobilization Legacy help you recover faster."
+        "text": "At peace it falls each turn, and ending a war halves it. Honor, the Aztecs, the Great Bath, the Pax Dei belief and the Total Mobilization Legacy help you recover faster."
       },
       {
-        "text": "When someone declares war on you, Call to Arms (Mobilization) speeds up military production. When a war ends, Reconstruction boosts production for a while. If you lose a city, you can Rally the Nation."
+        "text": "When you declare war, choose a Casus Belli: War Fervor (veteran recruits) or Blitz (+1 Movement), each +2 War Weariness, or pay for Propaganda (-5 War Weariness). When someone declares war on you, Call to Arms (Mobilization) speeds up military production. When a war ends, Reconstruction boosts production for a while. If you lose a city, you can Rally the Nation."
       }
     ]
   },
@@ -89,6 +92,26 @@
       },
       {
         "text": "Each point makes technologies 4% and policies 5% more expensive, and adds 10% unhappiness from the number of cities. A bigger empire is still stronger, just with diminishing returns. Rome tolerates Strain better than others."
+      }
+    ]
+  },
+  {
+    "name": "Unrest",
+    "civilopediaText": [
+      {
+        "text": "When your empire falls to -5 Happiness or worse, Unrest breaks out (at most once every 15 turns, scaled by game speed). Choose how to answer:"
+      },
+      {
+        "text": "• Martial Law: for 10 turns, +2 Happiness in every city with a military unit inside, -10% Production everywhere, and no rebels."
+      },
+      {
+        "text": "• Concessions: pay 15 Gold per city for +1 Happiness in every city for 10 turns."
+      },
+      {
+        "text": "• Ignore them: free, but half the time a band of rebels rises near your capital."
+      },
+      {
+        "text": "Unrest is a warning: below -10 Happiness cities stop growing, produce 50% less and fight worse, and below -20 rebels appear on their own."
       }
     ]
   },

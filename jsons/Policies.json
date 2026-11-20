@@ -96,7 +96,7 @@
                 "uniques": [
                     "Can build [all] improvements at a [+25]% rate",
                     "Free [Worker] appears",
-                    "[-100]% weight to this choice for AI decisions"
+                    "[+1 Happiness] from every [Quarter]" // The Long Game: + civic districts; was AI weight -100%
                 ],
                 "row": 1,
                 "column": 4
@@ -125,8 +125,7 @@
                 "name": "Meritocracy",
                 "uniques": [
                     "[+1 Happiness] [in all cities connected to capital]",
-                    "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
-                    "[-100]% weight to this choice for AI decisions"
+                    "[-10]% Unhappiness from [Population] [in all non-occupied cities]" // The Long Game: was -5%, AI weight -100%
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
@@ -511,7 +510,7 @@
         "policies": [
             {
                 "name": "Constitution",
-                "uniques": ["[+2 Culture] from every [Wonder]", "[-100]% weight to this choice for AI decisions"],
+                "uniques": ["[+2 Culture] from every [Wonder]", "[+2 Culture] from every [Great Improvement]"], // The Long Game: + Great Improvements; was AI weight -100%
                 "row": 1,
                 "column": 1
             },

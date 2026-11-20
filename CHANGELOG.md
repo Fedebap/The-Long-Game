@@ -1,5 +1,20 @@
 # Changelog
 
+## v0.2.0-alpha (2026-11-20)
+Built on v0.1.0-alpha. Start new games with it: rules changed, so ongoing v0.1 multiplayer games should finish on v0.1.
+
+- **Great People meet Quarters**: Academy, Market, Artisan Quarters and Sacred Groves give 1 Great Scientist / Merchant / Engineer / Artist point per turn, and +2 to their yield for each adjacent Great Person improvement. Cluster your Great People around your Quarters.
+- **Liberty and Freedom fixes**: Citizenship also gives +1 Happiness per Quarter; Meritocracy −10% unhappiness from population (was −5%); Constitution also +2 Culture per Great Person improvement.
+- New wonders: **Grand Bazaar** (Guilds: Market Quarter tiles +2 Gold +1 Culture), **Palace of Versailles** (Economics: Golden Ages 25% longer, Golden Age focus twice as strong), **Crystal Palace** (Scientific Theory: one extra Legacy in every later era).
+- First-time explanations for human players: a welcome popup on turn 1, and one the first time Imperial Strain or War Weariness appears.
+- **How to play** guide in English and Spanish (`HOW_TO_PLAY.md`, `HOW_TO_PLAY.es.md`).
+- Insights now cover **every era**: 58 more techs (78 in total; only Agriculture and Future Tech have none), many tied to Quarters and other new systems (Guilds ← Artisan Quarter, Architecture ← own 4 Quarters, Gunpowder ← 5 victories, Nanotechnology ← own 12 Quarters…). The +25% tech cost now applies in every era.
+- New event **Casus Belli** when you declare war: *War Fervor* (new units +15 XP for 8 turns) or *Blitz* (+1 Movement for land units for 3 turns), each +2 War Weariness, or *Propaganda* (pay 60 Gold, −5 War Weariness).
+- New event **Expedition** when you discover a natural wonder: *Survey* (Science), *Pilgrimage* (Faith + Culture) or *Tall Tales* (Gold); bigger from the Renaissance on.
+- New event **Unrest** at −5 Happiness or worse (15-turn cooldown): *Martial Law* (+2 Happiness in garrisoned cities, −10% Production, no rebels, 10 turns), *Concessions* (15 Gold per city: +1 Happiness per city, 10 turns) or *Ignore them* (50% chance of rebels).
+- Beliefs pass: weak and situational beliefs buffed (Faith Healers, God of War, Monument to the Gods, Goddess of Love, God of the Open Sky, Fertility Rites, Liturgical Drama, Religious Art, Reliquary). Peace Loving and World Church now count your own followers too, so they work in 1v1.
+- New beliefs: **Star Gazers** (pantheon: every Insight also gives Faith), **Holy Groves** (follower: Sacred Grove tiles +1 Faith +1 Culture), **Warrior Monks** (follower: new military units +10 XP), **Pax Dei** (founder: War Weariness recovers faster, Culture per follower city while at peace).
+
 ## v0.1.0-alpha (2026-11-20)
 Baseline: Unciv **5.0.1** *Civ V – Gods & Kings* ruleset (`yairm210/Unciv@82edba7`).
 

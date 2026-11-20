@@ -267,6 +267,73 @@
             {"text": "Learning", "civilopediaText": [{"text": "+15% Science in all cities during this Golden Age."}], "uniques": ["Set [Golden Age Focus] to [3] <hidden from users>"]}
         ]
     },
+    // =========================== D9 First-time explanations (human players only) ===========================
+    {
+        "name": "Welcome to The Long Game",
+        "text": "Welcome to The Long Game! Techs have Insights: do something related and get 40% of the tech (see each tech's description). Quarters are districts whose tile yields without a worker. Each era you choose a permanent Legacy. Wars build War Weariness, and outgrowing your rivals builds Imperial Strain. Full guide: Civilopedia, Tutorials, The Long Game.",
+        "presentation": "Alert",
+        "choices": [{"text": "Let's begin"}]
+    },
+    {
+        "name": "About Imperial Strain",
+        "text": "Our empire now has more cities than our rivals can match: Imperial Strain (top bar). Each point makes technologies 4% and policies 5% more expensive and adds unhappiness from the number of cities. It falls as rivals grow. We can still expand, with diminishing returns.",
+        "presentation": "Alert",
+        "choices": [{"text": "Understood"}]
+    },
+    {
+        "name": "About War Weariness",
+        "text": "Our people are tiring of war: War Weariness (top bar). It grows every turn at war and with every unit or city lost. Every 5 points add 5% unhappiness from population. It falls in peace, and making peace halves it.",
+        "presentation": "Alert",
+        "choices": [{"text": "Understood"}]
+    },
+    // =========================== D3 Casus Belli, D7 Expeditions ===========================
+    {
+        "name": "Casus Belli",
+        "text": "We have declared war. How shall we wage it?",
+        "presentation": "Alert",
+        "choices": [
+            {"text": "War Fervor", "civilopediaText": [{"text": "New military units start with 15 XP for 8 turns (scaled by game speed). The people pay for it: +2 War Weariness."}],
+             "uniques": ["Set [War Fervor] to [max([War Fervor], floor(8 * [Speed modifier for [Food]] / 100 + 0.5))] <hidden from users>", "Instantly gain [2] [War Weariness] <hidden from users>"]},
+            {"text": "Blitz", "civilopediaText": [{"text": "+1 Movement for military land units for 3 turns (scaled by game speed). Strike before they are ready: +2 War Weariness."}],
+             "uniques": ["Set [Blitz] to [max([Blitz], floor(3 * [Speed modifier for [Food]] / 100 + 0.5))] <hidden from users>", "Instantly gain [2] [War Weariness] <hidden from users>"]},
+            {"text": "Propaganda", "civilopediaText": [{"text": "Spend 60 Gold (scaled by game speed) to convince the people this war is just: -5 War Weariness."}],
+             "uniques": ["Gain [-60] [Gold] <(modified by game speed)> <hidden from users>", "Set [War Weariness] to [max(0, [War Weariness] - 5)] <hidden from users>",
+                         "Only available <when above [59] [Gold]>"]}
+        ]
+    },
+    {
+        "name": "Expedition",
+        "text": "Our explorers have found a natural wonder! What shall we make of it?",
+        "presentation": "Alert",
+        "choices": [
+            {"text": "Survey", "civilopediaText": [{"text": "Scholars map and measure it: +40 Science (+80 from the Renaissance era on), scaled by game speed."}],
+             "uniques": ["Gain [40] [Science] <(modified by game speed)>", "Gain [40] [Science] <starting from the [Renaissance era]> <(modified by game speed)>"]},
+            {"text": "Pilgrimage", "civilopediaText": [{"text": "It becomes a holy place: +30 Faith and +15 Culture (doubled from the Renaissance era on), scaled by game speed."}],
+             "uniques": ["Gain [30] [Faith] <(modified by game speed)>", "Gain [15] [Culture] <(modified by game speed)>",
+                         "Gain [30] [Faith] <starting from the [Renaissance era]> <(modified by game speed)>", "Gain [15] [Culture] <starting from the [Renaissance era]> <(modified by game speed)>"]},
+            {"text": "Tall Tales", "civilopediaText": [{"text": "Travellers pay to hear the story: +60 Gold (+120 from the Renaissance era on), scaled by game speed."}],
+             "uniques": ["Gain [60] [Gold] <(modified by game speed)>", "Gain [60] [Gold] <starting from the [Renaissance era]> <(modified by game speed)>"]}
+        ]
+    },
+    {
+        "name": "Unrest",
+        "text": "Our people are restless. Crowds gather in the squares and the mood is turning ugly. How shall we answer?",
+        "presentation": "Alert",
+        "choices": [
+            {"text": "Martial Law", "civilopediaText": [{"text": "For 10 turns (scaled by game speed): +2 Happiness in every city with a military unit inside, -10% Production in all cities, and no rebels."}],
+             "uniques": ["Set [Martial Law] to [max([Martial Law], floor(10 * [Speed modifier for [Food]] / 100 + 0.5))] <hidden from users>"]},
+            {"text": "Concessions", "civilopediaText": [{"text": "Pay 15 Gold per city (scaled by game speed): +1 Happiness in every city for 10 turns (scaled by game speed)."}],
+             "uniques": ["Gain [-15] [Gold] <for every [Cities]> <(modified by game speed)> <hidden from users>",
+                         "Set [Concessions] to [max([Concessions], floor(10 * [Speed modifier for [Food]] / 100 + 0.5))] <hidden from users>",
+                         "Only available <when number of [Gold] is more than [floor(15 * [Cities] * [Speed modifier for [Gold]] / 100) - 1]>",
+                         "[+50]% weight to this choice for AI decisions"]},
+            {"text": "Ignore them", "civilopediaText": [{"text": "Do nothing and hope it passes. Half the time, a band of rebels rises near your capital."}],
+             "uniques": ["A [Spearman] rebels <with [50]% chance> <before the [Medieval era]>", "A [Pikeman] rebels <with [50]% chance> <during the [Medieval era]>",
+                         "A [Musketman] rebels <with [50]% chance> <during the [Renaissance era]>", "A [Rifleman] rebels <with [50]% chance> <during the [Industrial era]>",
+                         "A [Infantry] rebels <with [50]% chance> <starting from the [Modern era]>",
+                         "[-50]% weight to this choice for AI decisions"]}
+        ]
+    },
     // =========================== Legacies (era choices) ===========================
     // >>> LEGACIES (generated by tools/gen_legacies.py - do not edit by hand)
     {

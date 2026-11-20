@@ -281,25 +281,25 @@
 		"name": "Academy Quarter",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 1,
-		"uniques": ["Quarter", "Tile provides yield without assigned population", "Cannot be built on [resource] tiles", "Removes removable features when built", "Will not be replaced by automated units", "Irremovable", "[+1 Science] for each adjacent [Mountain]", "[+1 Science] for each adjacent [Jungle]", "[+1 Science] for each adjacent [Quarter]"]
+		"uniques": ["Quarter", "Tile provides yield without assigned population", "Cannot be built on [resource] tiles", "Removes removable features when built", "Will not be replaced by automated units", "Irremovable", "[+1 Science] for each adjacent [Mountain]", "[+1 Science] for each adjacent [Jungle]", "[+1 Science] for each adjacent [Quarter]", "[+2 Science] for each adjacent [Great Improvement]"]
 	},
 	{
 		"name": "Market Quarter",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 1,
-		"uniques": ["Quarter", "Tile provides yield without assigned population", "Cannot be built on [resource] tiles", "Removes removable features when built", "Will not be replaced by automated units", "Irremovable", "[+1 Gold] for each adjacent [River]", "[+1 Gold] for each adjacent [Luxury resource]", "[+1 Gold] for each adjacent [Quarter]"]
+		"uniques": ["Quarter", "Tile provides yield without assigned population", "Cannot be built on [resource] tiles", "Removes removable features when built", "Will not be replaced by automated units", "Irremovable", "[+1 Gold] for each adjacent [River]", "[+1 Gold] for each adjacent [Luxury resource]", "[+1 Gold] for each adjacent [Quarter]", "[+2 Gold] for each adjacent [Great Improvement]"]
 	},
 	{
 		"name": "Sacred Grove",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 1,
-		"uniques": ["Quarter", "Tile provides yield without assigned population", "Cannot be built on [resource] tiles", "Removes removable features when built", "Will not be replaced by automated units", "Irremovable", "[+1 Culture]", "[+1 Faith] for each adjacent [Forest]", "[+1 Faith] for each adjacent [Mountain]", "[+2 Faith] for each adjacent [Natural Wonder]", "[+1 Faith] for each adjacent [Quarter]"]
+		"uniques": ["Quarter", "Tile provides yield without assigned population", "Cannot be built on [resource] tiles", "Removes removable features when built", "Will not be replaced by automated units", "Irremovable", "[+1 Culture]", "[+1 Faith] for each adjacent [Forest]", "[+1 Faith] for each adjacent [Mountain]", "[+2 Faith] for each adjacent [Natural Wonder]", "[+1 Faith] for each adjacent [Quarter]", "[+2 Faith] for each adjacent [Great Improvement]"]
 	},
 	{
 		"name": "Artisan Quarter",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 1,
-		"uniques": ["Quarter", "Tile provides yield without assigned population", "Cannot be built on [resource] tiles", "Removes removable features when built", "Will not be replaced by automated units", "Irremovable", "[+1 Production] for each adjacent [Mine]", "[+1 Production] for each adjacent [Quarry]", "[+1 Production] for each adjacent [Lumber mill]", "[+1 Production] for each adjacent [Quarter]"]
+		"uniques": ["Quarter", "Tile provides yield without assigned population", "Cannot be built on [resource] tiles", "Removes removable features when built", "Will not be replaced by automated units", "Irremovable", "[+1 Production] for each adjacent [Mine]", "[+1 Production] for each adjacent [Quarry]", "[+1 Production] for each adjacent [Lumber mill]", "[+1 Production] for each adjacent [Quarter]", "[+2 Production] for each adjacent [Great Improvement]"]
 	},
 	{
 		"name": "Garrison Quarter",

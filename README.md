@@ -8,6 +8,8 @@ both sides. Big leads still have to be defended, so games stay interesting longe
 > **Early development.** Expect changes between versions, and don't start long multiplayer games on a version you
 > haven't tested together.
 
+**New here? Read the [How to play](HOW_TO_PLAY.md) guide** ([en español](HOW_TO_PLAY.es.md)).
+
 ## What's different
 
 - **Quarters.** Light districts: build an Academy, Market, Sacred Grove, Artisan or Garrison Quarter and pick its tile.
@@ -15,8 +17,8 @@ both sides. Big leads still have to be defended, so games stay interesting longe
 - **Insights.** Techs get a 40% boost when you do something related (build 2 Mines → Bronze Working). Check the tech's description.
 - **Legacies.** Each new era you choose one of three permanent bonuses (Legions, Banking, Public Schools…), which build up
   your civ's identity over the game. Civs behind in tech can take a free tech instead.
-- **Events.** Decide what happens to conquered cities, pick a perk when you sign an alliance, choose a focus for each
-  Golden Age, and rally your nation when a city falls.
+- **Events.** Pick how to wage a war you declare, decide what happens to conquered cities, pick a perk when you sign an
+  alliance, choose a focus for each Golden Age, rally your nation when a city falls, answer unrest at home, and turn natural wonders into expeditions.
 - **Civilizations.** Rome, Korea, Egypt, the Aztecs, Byzantium and Babylon, reworked to use the new systems, plus four new
   ones: the **Mapuche** (stronger against bigger empires), **Vietnam** (defence on its own forested ground), **Mali**
   (trade and Market Quarters) and **Poland** (two Legacies every era).
@@ -25,17 +27,18 @@ both sides. Big leads still have to be defended, so games stay interesting longe
   deciding a match.
 - **Armies with more texture.** Escort a Battering Ram or Siege Tower to crack city walls, keep a Field Medic behind the
   lines, buy Mercenary Companies with gold, and watch morale: units that take a beating get *Shaken*, and winners get *Emboldened*.
-- **Wonders with personality**, like Hadrian's Wall (enemies crawl through your land) and the House of Wisdom
-  (every Insight also inspires your artists).
+- **Wonders with personality**, like Hadrian's Wall (enemies crawl through your land), the House of Wisdom
+  (every Insight also inspires your artists) and the Crystal Palace (an extra Legacy in every later era).
 - **Imperial Strain.** Each city beyond what your rivals average makes techs, policies and happiness a bit costlier.
   Bigger is still better, just with diminishing returns.
-- **Rebalanced policies.** Piety and Rationalism are no longer mutually exclusive, and Honor rewards any war, not just barbarian hunting.
+- **Rebalanced policies and beliefs.** Piety and Rationalism are no longer mutually exclusive, Honor rewards any war, weak pantheons
+  and beliefs got buffs, and new ones tie religion to the rest of the mod (Star Gazers turns Insights into Faith).
 - **Very Quick** game speed (0.5×). Timers and rates adapt to the game speed.
 
 Optional: **The Long Game Fortunes**, a separate extension with random events (plague, gold rush, pirates,
 mercenaries, comets…) for groups that like some chaos.
 
-Planned: Insights for later eras, more wonders, more civilizations.
+Planned: more civilizations, more wonders, art for the new content.
 
 ## Install
 

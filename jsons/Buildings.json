@@ -1118,7 +1118,8 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Creates a [Academy Quarter] improvement on a specific tile", "Requires at least [3] population", "Quarter"],
-		"civilopediaText": [{"text": "Scholars gather around a library district. Place it next to Mountains, Jungle or other Quarters."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}]
+		"greatPersonPoints": {"Great Scientist": 1},
+		"civilopediaText": [{"text": "Scholars gather around a library district. Place it next to Mountains, Jungle or other Quarters."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}, {"text": "+1 Great Scientist point per turn. +2 to the Quarter's yield for each adjacent Great Person improvement (Academy, Manufactory, Customs house, Landmark…)."}]
 	},
 	{
 		"name": "Market Quarter",
@@ -1127,7 +1128,8 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Creates a [Market Quarter] improvement on a specific tile", "Requires at least [3] population", "Quarter"],
-		"civilopediaText": [{"text": "A bazaar district. Place it next to Rivers, luxury resources or other Quarters."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}]
+		"greatPersonPoints": {"Great Merchant": 1},
+		"civilopediaText": [{"text": "A bazaar district. Place it next to Rivers, luxury resources or other Quarters."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}, {"text": "+1 Great Merchant point per turn. +2 to the Quarter's yield for each adjacent Great Person improvement (Academy, Manufactory, Customs house, Landmark…)."}]
 	},
 	{
 		"name": "Sacred Grove",
@@ -1136,7 +1138,8 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Creates a [Sacred Grove] improvement on a specific tile", "Requires at least [3] population", "Quarter"],
-		"civilopediaText": [{"text": "A holy district. Place it next to Forests, Mountains, Natural Wonders or other Quarters."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}]
+		"greatPersonPoints": {"Great Artist": 1},
+		"civilopediaText": [{"text": "A holy district. Place it next to Forests, Mountains, Natural Wonders or other Quarters."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}, {"text": "+1 Great Artist point per turn. +2 to the Quarter's yield for each adjacent Great Person improvement (Academy, Manufactory, Customs house, Landmark…)."}]
 	},
 	{
 		"name": "Artisan Quarter",
@@ -1145,7 +1148,8 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Creates a [Artisan Quarter] improvement on a specific tile", "Requires at least [3] population", "Quarter"],
-		"civilopediaText": [{"text": "A district of workshops and smithies. Place it next to Mines, Quarries, Lumber Mills or other Quarters."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}]
+		"greatPersonPoints": {"Great Engineer": 1},
+		"civilopediaText": [{"text": "A district of workshops and smithies. Place it next to Mines, Quarries, Lumber Mills or other Quarters."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}, {"text": "+1 Great Engineer point per turn. +2 to the Quarter's yield for each adjacent Great Person improvement (Academy, Manufactory, Customs house, Landmark…)."}]
 	},
 	{
 		"name": "Garrison Quarter",
@@ -1188,5 +1192,18 @@
 	// The Long Game: wonders with personality (Q3)
 	{"name": "Great Bath", "isWonder": true, "requiredTech": "Pottery", "happiness": 2, "faith": 1, "uniques": ["Provides [-2] [War Weariness] <when number of [War Weariness] is more than [1]>"], "quote": "Clean water, clean minds: the city that bathes together, endures together."},
 	{"name": "Hadrian's Wall", "isWonder": true, "requiredTech": "Construction", "culture": 1, "uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory", "[+15]% Strength for cities"], "quote": "Build a wall from sea to sea, and let them count the miles it costs to cross it."},
-	{"name": "House of Wisdom", "isWonder": true, "requiredTech": "Education", "science": 3, "greatPersonPoints": {"Great Scientist": 2}, "uniques": ["Comment [Every Insight you earn also grants 30 Culture (scaled by game speed)]"], "quote": "Translate every book, invite every scholar: knowledge grows where it is shared."}
+	{"name": "House of Wisdom", "isWonder": true, "requiredTech": "Education", "science": 3, "greatPersonPoints": {"Great Scientist": 2}, "uniques": ["Comment [Every Insight you earn also grants 30 Culture (scaled by game speed)]"], "quote": "Translate every book, invite every scholar: knowledge grows where it is shared."},
+	{"name": "Grand Bazaar", "isWonder": true, "requiredTech": "Guilds", "gold": 3, "greatPersonPoints": {"Great Merchant": 2},
+	 "uniques": ["[+2 Gold, +1 Culture] from [Market Quarter] tiles [in all cities]"],
+	 "quote": "Under ten thousand domes, the whole world comes to haggle."},
+	{"name": "Palace of Versailles", "isWonder": true, "requiredTech": "Economics", "culture": 3, "happiness": 1, "greatPersonPoints": {"Great Artist": 2},
+	 "uniques": ["Comment [Golden Ages last 25% longer, and your Golden Age focus (Arts, Industry or Learning) is twice as strong]",
+		"[+25]% Golden Age length",
+		"[+20]% [Culture] [in all cities] <during a Golden Age> <when number of [Golden Age Focus] is equal to [1]> <hidden from users>",
+		"[+15]% [Production] [in all cities] <during a Golden Age> <when number of [Golden Age Focus] is equal to [2]> <hidden from users>",
+		"[+15]% [Science] [in all cities] <during a Golden Age> <when number of [Golden Age Focus] is equal to [3]> <hidden from users>"],
+	 "quote": "L'État, c'est moi."},
+	{"name": "Crystal Palace", "isWonder": true, "requiredTech": "Scientific Theory", "culture": 2, "science": 2, "greatPersonPoints": {"Great Engineer": 2},
+	 "uniques": ["Comment [Choose one extra Legacy in every later era (Modern, Atomic, Information)]"],
+	 "quote": "Bring the works of every nation under one roof of glass, and let the future choose."}
 ]
