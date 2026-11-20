@@ -32,7 +32,7 @@
         "Provides [-1] [War Weariness] <for every [min([War Weariness], floor(300 / [Speed modifier for [Food]] + 0.5))]> <when number of [Remaining [{Major} {Hostile}] Civilizations] is equal to [0]> <hidden from users>",
         "Instantly gain [5] [War Weariness] <upon declaring war on [Major] Civilizations> <hidden from users>",
         "Instantly gain [1] [War Weariness] <upon losing a [Military] unit> <when number of [Remaining [{Major} {Hostile}] Civilizations] is more than [0]> <hidden from users>",
-        "Instantly gain [3] [War Weariness] <upon conquering a city> <for [Major] Civilizations> <hidden from users>",
+        "Instantly gain [3] [War Weariness] <upon conquering a city> <for [Major] Civilizations> <for [non-[The Ottomans]] Civilizations> <hidden from users>", // Ottomans: none
         "Instantly gain [5] [War Weariness] <upon losing a city> <for [Major] Civilizations> <hidden from users>",
         // Peace halves War Weariness. Detected as "fewer wars than last turn", because Unciv 5.0.1's
         // <upon signing a peace treaty with [..]> trigger checks the wrong parameter and never fires (docs/SPIKES.md)
@@ -597,7 +597,7 @@
         // ---- A5 Scorched Earth (Rally the Nation choice) -------------------------------------
         "[+20]% Strength <when fighting in [Friendly Land] tiles> <when number of [Scorched Earth] is more than [0]>",
         // ---- H2 Morale ------------------------------------------------------------------------
-        "[This Unit] gains the [Shaken] status for [1] turn(s) <upon losing at least [50] HP in a single attack>",
+        "[This Unit] gains the [Shaken] status for [1] turn(s) <upon losing at least [50] HP in a single attack> <for [non-[Zulu]] Civilizations>", // Zulu: never Shaken
         "[This Unit] gains the [Emboldened] status for [2] turn(s) <upon defeating a [Military] unit>",
         // ---- F2 Unit upkeep +5% per era --------------------------------------------------------
         "[+5]% maintenance costs <for every [Era number]>",

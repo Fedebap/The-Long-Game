@@ -163,18 +163,39 @@ unidades pelean un 33% peor; por debajo de −20 aparecen rebeldes por su cuenta
 
 ## Civilizaciones
 
-| Civ | Líder | En resumen |
-|---|---|---|
-| **Rome** | Augustus Caesar | La Imperial Strain le afecta la mitad. +25% de Production en edificios que su capital ya tiene. Legion, Ballista |
-| **Korea** | Sejong | +1 Science por especialista, sus Academy Quarter rinden un +50%. Hwach'a, Turtle Ship |
-| **Egypt** | Ramesses II | +20% de Production en maravillas, sus Artisan Quarter rinden un +50%. War Chariot, Burial Tomb |
-| **Aztecs** | Montezuma I | Culture por cada unidad que mata, la War Weariness baja 1 más por turno. Jaguar, Floating Gardens |
-| **Byzantium** | Theodora | Una creencia extra al fundar una religión, sus Sacred Grove rinden un +50%. Dromon, Cataphract |
-| **Babylon** | Nebuchadnezzar II | Sus Insights abaratan las tecnologías un 50% en vez de un 33%, Great Scientist un 33% más rápido. Bowman, Walls of Babylon |
-| **Mapuche** | Lautaro | +20% de fuerza contra civilizaciones con más ciudades, sus unidades se curan 10 al matar. Malón Raider (especialista en saqueo) |
-| **Vietnam** | Bà Triệu | +25% de fuerza en Forest, Jungle y Marsh propios; los enemigos gastan 1 movimiento extra en su territorio. Voi Chiến |
-| **Mali** | Mansa Musa | Sus Market Quarter rinden el doble, +1 Gold en Desert, pero −10% de Production en edificios. Suguba |
-| **Poland** | Casimir III | Elige **dos** Legacies en cada era. Winged Hussar |
+Cada civilización tiene una **habilidad única** y **4 componentes únicos** (unidades, edificios, mejoras o un
+Quarter único). Cada componente reemplaza a uno estándar; la Civilopedia muestra los números exactos.
+
+- **Rome** (Augustus Caesar). La Imperial Strain le afecta la mitad; +25% de Production en edificios que su capital ya tiene.
+  Legion (Swordsman: 17 de fuerza, construye caminos y fuertes) · Ballista (Catapult: 8/10 de fuerza) · Castrum (Garrison Quarter: las unidades de la ciudad empiezan con +10 XP) · Basilica (Courthouse: en cualquier ciudad, +1 Culture, +1 Happiness)
+- **Korea** (Sejong). +1 Science por especialista; sus Academy Quarter rinden un +50%.
+  Hwach'a (Trebuchet: 26 de fuerza a distancia) · Turtle Ship (Caravel: 36 de fuerza, solo costa) · Jiphyeonjeon (Academy Quarter: +1 Culture en la casilla, 2 puntos de Great Scientist) · Sanseong (Castle: más fuerte, las unidades vecinas se curan +10)
+- **Egypt** (Ramesses II). +20% de Production en maravillas; sus Artisan Quarter rinden un +50%.
+  War Chariot (Chariot Archer: sin Horses, 5 de movimiento) · Burial Tomb (Temple: +2 Happiness, sin mantenimiento, pero oro doble si la capturan) · Deir el-Medina (Artisan Quarter: +15% de Production de maravillas en la ciudad) · Medjay (Spearman: 12 de fuerza, +1 de visión, +25% en Desert)
+- **Aztecs** (Montezuma I). Culture por cada unidad que mata; la War Weariness baja 1 más por turno.
+  Jaguar (Warrior: fuerte en Forest y Jungle) · Floating Gardens (Water Mill: +2 Food en Lakes) · Tlachtli (Circus: +1 Faith, +1 Culture) · Teocalli (Sacred Grove: +2 Culture en la casilla)
+- **Byzantium** (Theodora). Una creencia extra al fundar una religión; sus Sacred Grove rinden un +50%.
+  Dromon (Trireme: a distancia, +50% contra barcos) · Cataphract (Horseman: 15 de fuerza) · Varangian Guard (Longswordsman: +20% al defender, +10% junto a un Great General) · Katholikon (Temple: +1 Culture, 1 de mantenimiento)
+- **Babylon** (Nebuchadnezzar II). Sus Insights abaratan las tecnologías un 50% en vez de un 33%; Great Scientist un 33% más rápido.
+  Bowman (Archer: 7/9 de fuerza) · Walls of Babylon (Walls: el doble de vida) · Edubba (Library: +1 Culture, 1 punto de Great Scientist) · Ziggurat (Shrine: +1 Science)
+- **Mapuche** (Lautaro). +20% de fuerza contra civilizaciones con más ciudades; sus unidades se curan 10 al matar.
+  Malón Raider (Knight: especialista en saqueo) · Malal (Palisade: +5 de fuerza, +40 de vida) · Kona (Spearman: doble movimiento en Forest, +15% en territorio propio) · Koyagtun (Amphitheater: +1 Happiness, menos infelicidad en guerra)
+- **Vietnam** (Bà Triệu). +25% de fuerza en Forest, Jungle y Marsh propios; los enemigos gastan 1 movimiento extra en su territorio.
+  Voi Chiến (Crossbowman: 15 de fuerza, 3 de movimiento, se mueve tras atacar) · Đình (Monument: +1 Happiness) · Tây Sơn Musketeer (Musketman: doble movimiento en Jungle y Forest) · Rice Paddy (mejora en Marsh y Flood plains: +2 Food, +1 Gold)
+- **Mali** (Mansa Musa). Sus Market Quarter rinden el doble; +1 Gold en Desert; −10% de Production en edificios.
+  Suguba (Market: +3 Gold, +1 Faith) · Mandekalu Cavalry (Knight: Gold por cada unidad que mata) · Sankore (University: +1 Faith, +2 Gold) · Griot House (Amphitheater: +4 Culture, 1 punto de Great Artist)
+- **Poland** (Casimir III). Elige dos Legacies en cada era.
+  Winged Hussar (Lancer: 28 de fuerza, experto en flanqueo) · Sukiennice (Market: +3 Gold, +1 Culture) · Hajduk (Musketman: 26 de fuerza, +10% al atacar) · Sejm (Courthouse: en cualquier ciudad, +2 Culture)
+- **Persia** (Darius I). Las Golden Ages duran un 50% más; durante ellas, +1 de movimiento y +10% de fuerza.
+  Persian Immortal (Spearman: 12 de fuerza, se cura más rápido) · Satrap's Court (Bank: +1 Happiness) · Pairidaeza (Garden: +1 Culture, +1 Happiness) · Qanat (mejora en Desert/Plains junto a una Hill: +2 Food)
+- **Inca** (Pachacuti). Las Hills no cuestan movimiento extra; +15% de fuerza en Hills; −50% de mantenimiento de caminos.
+  Waraka (Slinger: 7 de fuerza a distancia, +1 de visión) · Terrace farm (granja en Hill: +1 Food por cada Mountain vecina) · Intihuatana (Sacred Grove: +2 Faith por cada Mountain vecina) · Mit'a Laborer (Worker: construye un 25% más rápido)
+- **Sweden** (Gustavus Adolphus). Las ventajas de Alliance duran 40 turnos en vez de 20; declarar amistad da a ambos +10% de generación de Great People; Great Generals +1 de movimiento.
+  Carolean (Rifleman: +15% al atacar) · Hakkapeliitta (Lancer: +1 de movimiento) · Bruk (Forge: +1 Production, +1 Production en Mines) · Regalskepp (Frigate: 30 de fuerza a distancia, +1 de visión)
+- **The Ottomans** (Suleiman I). Conquistar una ciudad no genera War Weariness; −50% de infelicidad por población en ciudades anexionadas.
+  Janissary (Musketman: +25% al atacar, se cura 50 al matar) · Sipahi (Lancer: +1 de movimiento, +1 de visión, saqueo gratis) · Great Bombard (Cannon: 23 de fuerza a distancia) · Hammam (Aqueduct: +1 Happiness)
+- **Zulu** (Shaka). Nunca quedan Shaken; los ascensos necesitan un 25% menos de XP; las unidades cuerpo a cuerpo cuestan la mitad de mantenimiento.
+  Impi (Pikeman: +1 de movimiento) · Ikanda (Barracks: +1 de suministro, +15% de Production cuerpo a cuerpo) · Isibaya (Pasture: +1 Production) · Isijula Thrower (Archer: 8 de fuerza a distancia)
 
 ## Políticas, religión y maravillas
 

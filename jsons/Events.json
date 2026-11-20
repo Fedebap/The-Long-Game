@@ -250,11 +250,11 @@
         "presentation": "Alert",
         "choices": [
             {"text": "Joint Research", "civilopediaText": [{"text": "+5% Science in all cities for 20 turns (scaled by game speed)."}],
-             "uniques": ["Set [Joint Research] to [max([Joint Research], floor(20 * [Speed modifier for [Food]] / 100 + 0.5))] <hidden from users>"]},
+             "uniques": ["Set [Joint Research] to [max([Joint Research], floor(20 * [Speed modifier for [Food]] / 100 + 0.5))] <hidden from users>", "Set [Joint Research] to [max([Joint Research], floor(40 * [Speed modifier for [Food]] / 100 + 0.5))] <for [Sweden] Civilizations> <hidden from users>"]},
             {"text": "Arms Exchange", "civilopediaText": [{"text": "New military units start with 10 XP for 20 turns (scaled by game speed)."}],
-             "uniques": ["Set [Arms Exchange] to [max([Arms Exchange], floor(20 * [Speed modifier for [Food]] / 100 + 0.5))] <hidden from users>"]},
+             "uniques": ["Set [Arms Exchange] to [max([Arms Exchange], floor(20 * [Speed modifier for [Food]] / 100 + 0.5))] <hidden from users>", "Set [Arms Exchange] to [max([Arms Exchange], floor(40 * [Speed modifier for [Food]] / 100 + 0.5))] <for [Sweden] Civilizations> <hidden from users>"]},
             {"text": "Trade Compact", "civilopediaText": [{"text": "+1 Gold in every city for 20 turns (scaled by game speed)."}],
-             "uniques": ["Set [Trade Compact] to [max([Trade Compact], floor(20 * [Speed modifier for [Food]] / 100 + 0.5))] <hidden from users>"]}
+             "uniques": ["Set [Trade Compact] to [max([Trade Compact], floor(20 * [Speed modifier for [Food]] / 100 + 0.5))] <hidden from users>", "Set [Trade Compact] to [max([Trade Compact], floor(40 * [Speed modifier for [Food]] / 100 + 0.5))] <for [Sweden] Civilizations> <hidden from users>"]}
         ]
     },
     {

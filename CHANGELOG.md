@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.3.0-alpha (2026-11-20)
+15 civilizations, each with a unique ability and 4 unique components. Start new games with it.
+
+- **5 new civilizations:** Persia (Golden Ages), the Inca (hills and mountains), Sweden (alliances: perks last twice as long), the Ottomans (conquest without War Weariness) and the **Zulu** (never Shaken, cheap promotions).
+- **Every civilization now has 4 unique components** (was 1–2), in the spirit of the "3rd and 4th unique component" mod but with our own picks. Some are **unique Quarters** (Rome's Castrum, Korea's Jiphyeonjeon, Egypt's Deir el-Medina, the Aztec Teocalli, the Inca Intihuatana) that count as the normal Quarter for everything else.
+
 ## v0.2.1-alpha (2026-11-20)
 First playtest fixes. Start new games with it: Insight rules changed.
 

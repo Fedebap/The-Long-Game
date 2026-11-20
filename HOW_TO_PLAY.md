@@ -156,18 +156,39 @@ Vanilla still applies below −10 (no growth, −50% Production, −33% unit str
 
 ## Civilizations
 
-| Civ | Leader | In short |
-|---|---|---|
-| **Rome** | Augustus Caesar | Imperial Strain hurts about half as much. +25% Production for buildings your capital already has. Legion, Ballista |
-| **Korea** | Sejong | +1 Science per specialist, Academy Quarters yield +50%. Hwach'a, Turtle Ship |
-| **Egypt** | Ramesses II | +20% wonder Production, Artisan Quarters yield +50%. War Chariot, Burial Tomb |
-| **Aztecs** | Montezuma I | Culture from every kill, War Weariness recovers 1 faster per turn. Jaguar, Floating Gardens |
-| **Byzantium** | Theodora | An extra belief when founding a religion, Sacred Groves yield +50%. Dromon, Cataphract |
-| **Babylon** | Nebuchadnezzar II | Insights make techs 50% cheaper instead of 33%, Great Scientists 33% faster. Bowman, Walls of Babylon |
-| **Mapuche** | Lautaro | +20% strength against civs with more cities, units heal 10 HP after a kill. Malón Raider (pillage specialist) |
-| **Vietnam** | Bà Triệu | +25% strength in own Forest, Jungle and Marsh; enemies spend 1 extra movement in your land. Voi Chiến |
-| **Mali** | Mansa Musa | Market Quarters yield double, +1 Gold on Desert, but −10% building Production. Suguba |
-| **Poland** | Casimir III | Picks **two** Legacies every era. Winged Hussar |
+Every civilization has a **unique ability** and **4 unique components** (units, buildings, improvements or a unique
+Quarter). Each component replaces a standard one; the Civilopedia shows the exact numbers.
+
+- **Rome** (Augustus Caesar). Imperial Strain hurts about half as much; +25% Production for buildings your capital already has.
+  Legion (Swordsman: 17 strength, builds roads and forts) · Ballista (Catapult: 8/10 strength) · Castrum (Garrison Quarter: units trained in the city start with +10 XP) · Basilica (Courthouse: any city, +1 Culture, +1 Happiness)
+- **Korea** (Sejong). +1 Science per specialist; Academy Quarters yield +50%.
+  Hwach'a (Trebuchet: 26 ranged strength) · Turtle Ship (Caravel: 36 strength, coast only) · Jiphyeonjeon (Academy Quarter: +1 Culture on the tile, 2 Great Scientist points) · Sanseong (Castle: stronger, adjacent units heal +10)
+- **Egypt** (Ramesses II). +20% Production towards wonders; Artisan Quarters yield +50%.
+  War Chariot (Chariot Archer: no Horses needed, 5 Movement) · Burial Tomb (Temple: +2 Happiness, no upkeep, but double gold if captured) · Deir el-Medina (Artisan Quarter: +15% wonder Production in the city) · Medjay (Spearman: 12 strength, +1 Sight, +25% in Desert)
+- **Aztecs** (Montezuma I). Culture from every kill; War Weariness recovers 1 faster per turn.
+  Jaguar (Warrior: strong in Forest and Jungle) · Floating Gardens (Water Mill: +2 Food on Lakes) · Tlachtli (Circus: +1 Faith, +1 Culture) · Teocalli (Sacred Grove: +2 Culture on the tile)
+- **Byzantium** (Theodora). One extra belief when founding a religion; Sacred Groves yield +50%.
+  Dromon (Trireme: ranged, +50% vs ships) · Cataphract (Horseman: 15 strength) · Varangian Guard (Longswordsman: +20% defending, +10% next to a Great General) · Katholikon (Temple: +1 Culture, 1 upkeep)
+- **Babylon** (Nebuchadnezzar II). Insights make techs 50% cheaper instead of 33%; Great Scientists 33% faster.
+  Bowman (Archer: 7/9 strength) · Walls of Babylon (Walls: double HP) · Edubba (Library: +1 Culture, 1 Great Scientist point) · Ziggurat (Shrine: +1 Science)
+- **Mapuche** (Lautaro). +20% strength against civs with more cities; units heal 10 HP after a kill.
+  Malón Raider (Knight: pillage specialist) · Malal (Palisade: +5 strength, +40 HP) · Kona (Spearman: double movement in Forest, +15% in own land) · Koyagtun (Amphitheater: +1 Happiness, less unhappiness at war)
+- **Vietnam** (Bà Triệu). +25% strength in own Forest, Jungle and Marsh; enemies spend 1 extra movement in your land.
+  Voi Chiến (Crossbowman: 15 strength, 3 Movement, can move after attacking) · Đình (Monument: +1 Happiness) · Tây Sơn Musketeer (Musketman: double movement in Jungle and Forest) · Rice Paddy (improvement on Marsh and Flood plains: +2 Food, +1 Gold)
+- **Mali** (Mansa Musa). Market Quarters yield double; +1 Gold on Desert; −10% building Production.
+  Suguba (Market: +3 Gold, +1 Faith) · Mandekalu Cavalry (Knight: Gold from kills) · Sankore (University: +1 Faith, +2 Gold) · Griot House (Amphitheater: +4 Culture, 1 Great Artist point)
+- **Poland** (Casimir III). Picks two Legacies every era.
+  Winged Hussar (Lancer: 28 strength, flanking expert) · Sukiennice (Market: +3 Gold, +1 Culture) · Hajduk (Musketman: 26 strength, +10% attacking) · Sejm (Courthouse: any city, +2 Culture)
+- **Persia** (Darius I). Golden Ages last 50% longer; during them +1 Movement and +10% strength.
+  Persian Immortal (Spearman: 12 strength, heals faster) · Satrap's Court (Bank: +1 Happiness) · Pairidaeza (Garden: +1 Culture, +1 Happiness) · Qanat (improvement on Desert/Plains next to a Hill: +2 Food)
+- **Inca** (Pachacuti). Hills cost no extra movement; +15% strength on Hills; road upkeep −50%.
+  Waraka (Slinger: 7 ranged strength, +1 Sight) · Terrace farm (Hill farm: +1 Food per adjacent Mountain) · Intihuatana (Sacred Grove: +2 Faith per adjacent Mountain) · Mit'a Laborer (Worker: builds 25% faster)
+- **Sweden** (Gustavus Adolphus). Alliance perks last 40 turns instead of 20; declaring friendship gives both sides +10% Great Person generation; Great Generals +1 Movement.
+  Carolean (Rifleman: +15% attacking) · Hakkapeliitta (Lancer: +1 Movement) · Bruk (Forge: +1 Production, +1 Production on Mines) · Regalskepp (Frigate: 30 ranged strength, +1 Sight)
+- **The Ottomans** (Suleiman I). Conquering a city causes no War Weariness; −50% unhappiness from population in annexed cities.
+  Janissary (Musketman: +25% attacking, heals 50 HP after a kill) · Sipahi (Lancer: +1 Movement, +1 Sight, free pillaging) · Great Bombard (Cannon: 23 ranged strength) · Hammam (Aqueduct: +1 Happiness)
+- **Zulu** (Shaka). Never Shaken; promotions need 25% less XP; melee units −50% upkeep.
+  Impi (Pikeman: +1 Movement) · Ikanda (Barracks: +1 unit supply, +15% melee Production) · Isibaya (Pasture: +1 Production) · Isijula Thrower (Archer: 8 ranged strength)
 
 ## Policies, religion and wonders
 

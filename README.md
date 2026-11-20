@@ -19,9 +19,10 @@ both sides. Big leads still have to be defended, so games stay interesting longe
   your civ's identity over the game. Civs behind in tech can take a free tech instead.
 - **Events.** Pick how to wage a war you declare, decide what happens to conquered cities, pick a perk when you sign an
   alliance, choose a focus for each Golden Age, rally your nation when a city falls, answer unrest at home, and turn natural wonders into expeditions.
-- **Civilizations.** Rome, Korea, Egypt, the Aztecs, Byzantium and Babylon, reworked to use the new systems, plus four new
-  ones: the **Mapuche** (stronger against bigger empires), **Vietnam** (defence on its own forested ground), **Mali**
-  (trade and Market Quarters) and **Poland** (two Legacies every era).
+- **15 civilizations, each with a unique ability and 4 unique components.** Rome, Korea, Egypt, the Aztecs, Byzantium,
+  Babylon, Persia, the Inca, Sweden and the Ottomans, reworked to use the new systems, plus the **Mapuche** (stronger
+  against bigger empires), **Vietnam** (defence on its own forested ground), **Mali** (trade and Market Quarters),
+  **Poland** (two Legacies every era) and the **Zulu** (never shaken). Some components are unique Quarters.
 - **War has weight.** *War Weariness* builds up while you fight and fades in peace. Being attacked triggers a *Call to Arms*,
   ending a war brings *Reconstruction*, and stronger early cities plus a cheap **Palisade** keep turn-25 rushes from
   deciding a match.
@@ -38,7 +39,7 @@ both sides. Big leads still have to be defended, so games stay interesting longe
 Optional: **The Long Game Fortunes**, a separate extension with random events (plague, gold rush, pirates,
 mercenaries, comets…) for groups that like some chaos.
 
-Planned: more civilizations, more wonders, art for the new content.
+Planned: more wonders, a victory rework, art for the new content.
 
 ## Install
 
