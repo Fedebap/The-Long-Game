@@ -19,6 +19,8 @@ both sides. Big leads still have to be defended, so games stay interesting longe
   your civ's identity over the game. Civs behind in tech can take a free tech instead.
 - **Events.** Pick how to wage a war you declare, decide what happens to conquered cities, pick a perk when you sign an
   alliance, choose a focus for each Golden Age, rally your nation when a city falls, answer unrest at home, and turn natural wonders into expeditions.
+- **Natural wonders matter.** They yield without a worker, give Happiness and boost the Quarters around them. Each one has a
+  signature effect: most give a permanent promotion to units that visit them, others are hazards, hot springs or silver mines.
 - **15 civilizations, each with a unique ability and 4 unique components.** Rome, Korea, Egypt, the Aztecs, Byzantium,
   Babylon, Persia, the Inca, Sweden and the Ottomans, reworked to use the new systems, plus the **Mapuche** (stronger
   against bigger empires), **Vietnam** (defence on its own forested ground), **Mali** (trade and Market Quarters),

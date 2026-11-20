@@ -36,6 +36,7 @@ in the in-game Civilopedia, and every tech, building and event choice states its
 - Checked at the start of every turn, only for techs you haven't researched yet. Each one works once, and a popup
   tells you when you earn it.
 - You can earn an Insight long before you research the tech: the discount waits for you and shows in the research cost.
+- **Banked Insights are listed in your capital's buildings** as "Insight: <tech>" until you research the tech.
 - Techs cost **+33%**. With about three quarters of the Insights you research at vanilla speed; with all of them
   about 10% faster; ignoring them is a third slower.
 - **Tech screen quirk:** while you research a tech that has an Insight, the tech screen shows *every* tech with that
@@ -50,10 +51,10 @@ The tile **yields without a citizen working it**, and each adjacent feature adds
 
 | Quarter | Tech | Base | +1 for each adjacent | Unlocks |
 |---|---|---|---|---|
-| Academy Quarter | Writing | +1 Science | Mountain, Jungle, Quarter | University |
-| Market Quarter | Currency | +1 Gold | River, luxury resource, Quarter | Bank |
+| Academy Quarter | Writing | +1 Science | Mountain, Jungle, Quarter (+2 per Natural Wonder) | University |
+| Market Quarter | Currency | +1 Gold | River, luxury resource, Quarter (+2 per Natural Wonder) | Bank |
 | Sacred Grove | Philosophy | +1 Faith, +1 Culture | Forest, Mountain, Quarter (+2 Faith per Natural Wonder) | Grand Temple |
-| Artisan Quarter | Construction | +1 Production | Mine, Quarry, Lumber mill, Quarter | Workshop |
+| Artisan Quarter | Construction | +1 Production | Mine, Quarry, Lumber mill, Quarter (+2 per Natural Wonder) | Workshop |
 | Garrison Quarter | Bronze Working | +50% defence on its tile; adjacent enemies take 10 damage per turn | — | +2 unit supply, +15% military production in the city |
 
 **Great People love Quarters.** Each Quarter except the Garrison adds 1 Great Person point per turn (Academy: Scientist,
@@ -150,9 +151,36 @@ Vanilla still applies below −10 (no growth, −50% Production, −33% unit str
   - *Industry*: +15% Production.
   - *Learning*: +15% Science.
 - **Expedition** (you discover a natural wonder). Amounts double from the Renaissance on:
-  - *Survey*: Science.
-  - *Pilgrimage*: Faith and Culture.
-  - *Tall Tales*: Gold.
+  - *Survey*: 40 Science.
+  - *Pilgrimage*: 20 Faith and 15 Culture.
+  - *Tall Tales*: 100 Gold.
+
+## Natural wonders
+
+Worth settling for:
+- Their tile yields **without a citizen working it**, and the yields are bigger than in vanilla.
+- Each natural wonder tile you own gives **+2 Happiness**.
+- Quarters next to one get **+2** of their yield (the Sacred Grove +2 Faith).
+
+Each one also has a **signature effect**. Those marked * are **permanent promotions**, like the Fountain of Youth's
+Rejuvenation: any unit (from any civilization) that moves next to the wonder keeps it for the rest of the game.
+
+| Natural wonder | Signature effect |
+|---|---|
+| Great Barrier Reef | *Coral Reef*: any unit that ends its turn next to it, even yours, takes 20 damage |
+| Krakatoa | *Fire Mountain*: enemy units that end their turn next to it, inside the borders of a civilization at war with them, take 30 damage |
+| Old Faithful | *Hot Springs*: units that end their turn next to it heal 20 HP, even after moving or fighting |
+| Fountain of Youth | *Rejuvenation\**: all healing doubled (military land units) |
+| Mount Sinai | *Revelation\**: +50% XP from combat (military units) |
+| Mount Kailash | *Altitude Training\**: double movement and +10% Strength in Hills (military land units) |
+| Rock of Gibraltar | *Pillars of Hercules\**: +1 Movement (military naval units) |
+| Grand Mesa | *Vantage\**: +1 Sight (land units) |
+| Mount Fuji | *Spirit of Fuji\**: no strength penalty when wounded (military land units) |
+| Barringer Crater | *Star Metal\**: +10% Strength (melee land units) |
+| Uluru | *Songlines\**: ignores Zone of Control (military land units) |
+| Sri Pada | *Pilgrim's Path\**: +1 Movement (civilian units: Workers, Settlers, Great People, missionaries) |
+| Cerro de Potosi | *Silver Mountain*: while you own it, all your Mines yield +1 Gold |
+| El Dorado | *City of Gold*: 500 Gold to the first civilization to discover it |
 
 ## Civilizations
 
@@ -202,7 +230,7 @@ Quarter). Each component replaces a standard one; the Civilopedia shows the exac
 - **Naval Tradition** adds +2 Gold in coastal cities.
 - University +25% and Research Lab +40% Science (were +33% / +50%).
 - **Beliefs:** weak pantheons and beliefs were buffed. Peace Loving and World Church also count your own followers. New beliefs:
-  - *Star Gazers* (pantheon): every Insight also gives 25 Faith.
+  - *Star Gazers* (pantheon): every Insight also gives 10 Faith.
   - *Holy Groves*: Sacred Grove tiles +1 Faith, +1 Culture.
   - *Warrior Monks*: new military units +10 XP.
   - *Pax Dei*: War Weariness recovers faster, Culture per follower city at peace.

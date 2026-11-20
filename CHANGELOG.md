@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.3.1-alpha (2026-11-20)
+Natural wonders become a gameplay point, plus a big balance fix for Korea, Egypt, Byzantium and Mali. Start new games with it.
+
+- **Fix (big):** Korea's, Egypt's and Byzantium's +50% Quarter bonus and Mali's +100% boosted *every* yield of the whole
+  city that had the Quarter, not just the Quarter's tile. These civs snowballed (AI tests: science victories 70-100 turns
+  earlier than in vanilla). Now only the Quarter's own tile gets the bonus, as described.
+- **Insight tracker:** banked Insights (earned, tech not researched yet) are listed in your capital's buildings as "Insight: <tech>".
+- **Star Gazers** nerfed to 10 Faith per Insight (was 25), and the Faith now shows in the Insight popup (as does the House of Wisdom's Culture).
+- **Natural wonders buffed:** their tile yields without a worker, yields are bigger, each one you own gives +2 Happiness, and Academy, Market and Artisan Quarters next to one get +2 (like the Sacred Grove).
+- **Expedition:** Tall Tales 60 → 100 Gold, Pilgrimage 30 → 20 Faith.
+- **Signature natural wonders:** every natural wonder now has its own effect. Nine give a permanent promotion to units that
+  move next to them, like the Fountain of Youth's Rejuvenation (e.g. Mount Sinai +50% XP, Uluru ignores Zone of Control,
+  Rock of Gibraltar +1 Movement for ships). The Great Barrier Reef damages every unit that ends its turn next to it, Krakatoa
+  damages enemies inside its owner's borders, Old Faithful heals, and Cerro de Potosi gives +1 Gold to all your Mines.
+  Full list in the Civilopedia (Natural Wonders) and the guide.
+
 ## v0.3.0-alpha (2026-11-20)
 15 civilizations, each with a unique ability and 4 unique components. Start new games with it.
 

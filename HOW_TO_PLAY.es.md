@@ -40,6 +40,7 @@ edificio y opción de evento indica su efecto exacto.
 - Se comprueban al inicio de cada turno, solo para tecnologías que aún no investigaste. Cada uno funciona una sola vez,
   y una ventana te avisa cuando lo consigues.
 - Puedes conseguir un Insight mucho antes de investigar la tecnología: el descuento te espera y se ve en su costo.
+- **Los Insights pendientes aparecen entre los edificios de tu capital** como "Insight: <tecnología>" hasta que la investigas.
 - Las tecnologías cuestan un **+33%**. Con unas tres cuartas partes de los Insights investigas a la velocidad normal;
   con todos, un 10% más rápido; sin ellos, un tercio más lento.
 - **Detalle de la pantalla de tecnologías:** mientras investigas una tecnología con Insight, la pantalla muestra *todas*
@@ -54,10 +55,10 @@ no puede tener un recurso. La casilla **rinde sin que un ciudadano la trabaje**,
 
 | Quarter | Tecnología | Base | +1 por cada vecino | Desbloquea |
 |---|---|---|---|---|
-| Academy Quarter | Writing | +1 Science | Mountain, Jungle, Quarter | University |
-| Market Quarter | Currency | +1 Gold | River, recurso de lujo, Quarter | Bank |
+| Academy Quarter | Writing | +1 Science | Mountain, Jungle, Quarter (+2 por Natural Wonder) | University |
+| Market Quarter | Currency | +1 Gold | River, recurso de lujo, Quarter (+2 por Natural Wonder) | Bank |
 | Sacred Grove | Philosophy | +1 Faith, +1 Culture | Forest, Mountain, Quarter (+2 Faith por Natural Wonder) | Grand Temple |
-| Artisan Quarter | Construction | +1 Production | Mine, Quarry, Lumber mill, Quarter | Workshop |
+| Artisan Quarter | Construction | +1 Production | Mine, Quarry, Lumber mill, Quarter (+2 por Natural Wonder) | Workshop |
 | Garrison Quarter | Bronze Working | +50% de defensa en su casilla; los enemigos vecinos reciben 10 de daño por turno | — | +2 de suministro de unidades, +15% de producción militar en la ciudad |
 
 **A los Great People les gustan los Quarters.** Cada Quarter, salvo el Garrison, suma 1 punto de Great Person por turno
@@ -157,9 +158,36 @@ unidades pelean un 33% peor; por debajo de −20 aparecen rebeldes por su cuenta
   - *Industry*: +15% de Production.
   - *Learning*: +15% de Science.
 - **Expedition** (al descubrir una maravilla natural). Las cantidades se duplican desde la Renaissance:
-  - *Survey*: Science.
-  - *Pilgrimage*: Faith y Culture.
-  - *Tall Tales*: Gold.
+  - *Survey*: 40 Science.
+  - *Pilgrimage*: 20 Faith y 15 Culture.
+  - *Tall Tales*: 100 Gold.
+
+## Maravillas naturales
+
+Vale la pena fundar ciudades cerca:
+- Su casilla rinde **sin que un ciudadano la trabaje**, y sus rendimientos son mayores que en el juego base.
+- Cada casilla de maravilla natural que tienes da **+2 Happiness**.
+- Los Quarters vecinos ganan **+2** de su rendimiento (el Sacred Grove, +2 Faith).
+
+Además, cada una tiene un **efecto propio**. Las marcadas con * dan una **promoción permanente**, como la Rejuvenation de
+la Fountain of Youth: cualquier unidad (de cualquier civilización) que pase junto a la maravilla la conserva el resto de la partida.
+
+| Maravilla natural | Efecto propio |
+|---|---|
+| Great Barrier Reef | *Coral Reef*: toda unidad que termine su turno a su lado, incluso las tuyas, recibe 20 de daño |
+| Krakatoa | *Fire Mountain*: las unidades enemigas que terminen su turno a su lado, dentro de las fronteras de una civilización con la que están en guerra, reciben 30 de daño |
+| Old Faithful | *Hot Springs*: las unidades que terminen su turno a su lado se curan 20 HP, aunque se hayan movido o combatido |
+| Fountain of Youth | *Rejuvenation\**: toda curación se duplica (unidades militares terrestres) |
+| Mount Sinai | *Revelation\**: +50% de XP en combate (unidades militares) |
+| Mount Kailash | *Altitude Training\**: movimiento doble y +10% de fuerza en Hills (unidades militares terrestres) |
+| Rock of Gibraltar | *Pillars of Hercules\**: +1 de movimiento (unidades militares navales) |
+| Grand Mesa | *Vantage\**: +1 de visión (unidades terrestres) |
+| Mount Fuji | *Spirit of Fuji\**: sin penalización de fuerza al estar herida (unidades militares terrestres) |
+| Barringer Crater | *Star Metal\**: +10% de fuerza (unidades cuerpo a cuerpo terrestres) |
+| Uluru | *Songlines\**: ignora la Zone of Control (unidades militares terrestres) |
+| Sri Pada | *Pilgrim's Path\**: +1 de movimiento (unidades civiles: Workers, Settlers, Great People, misioneros) |
+| Cerro de Potosi | *Silver Mountain*: mientras sea tuyo, todas tus Mines rinden +1 Gold |
+| El Dorado | *City of Gold*: 500 Gold para la primera civilización que lo descubra |
 
 ## Civilizaciones
 
@@ -210,7 +238,7 @@ Quarter único). Cada componente reemplaza a uno estándar; la Civilopedia muest
 - University +25% y Research Lab +40% de Science (antes +33% / +50%).
 - **Creencias:** se mejoraron los panteones y creencias débiles. Peace Loving y World Church cuentan también a tus
   propios seguidores. Creencias nuevas:
-  - *Star Gazers* (panteón): cada Insight da además 25 Faith.
+  - *Star Gazers* (panteón): cada Insight da además 10 Faith.
   - *Holy Groves*: las casillas de Sacred Grove dan +1 Faith y +1 Culture.
   - *Warrior Monks*: las unidades militares nuevas empiezan con +10 XP.
   - *Pax Dei*: la War Weariness baja más rápido, y Culture por cada ciudad seguidora mientras haya paz.

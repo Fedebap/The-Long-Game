@@ -56,6 +56,9 @@
       },
       {
         "text": "Almost every technology has an Insight. Technologies cost 33% more to make up for it: with about three quarters of the Insights you research at the usual speed, with all of them a bit faster, and with none much slower."
+      },
+      {
+        "text": "Banked Insights (earned, technology not researched yet) are listed in your capital's buildings as \"Insight: <technology>\". They disappear when you research the technology."
       }
     ]
   },
@@ -93,6 +96,35 @@
       {
         "text": "Each point makes technologies 4% and policies 5% more expensive, and adds 10% unhappiness from the number of cities. A bigger empire is still stronger, just with diminishing returns. Rome tolerates Strain better than others."
       }
+    ]
+  },
+  {
+    "name": "Natural Wonders",
+    "civilopediaText": [
+      {
+        "text": "Natural wonders are worth settling for. Their tile yields even without a citizen working it, each natural wonder tile you own gives +2 Happiness, and Quarters next to one get +2 of their yield (Academy: Science, Market: Gold, Artisan: Production, Sacred Grove: Faith)."
+      },
+      {
+        "text": "The first time you see one, an Expedition lets you choose: Survey (Science), Pilgrimage (Faith and Culture) or Tall Tales (Gold). Amounts double from the Renaissance on."
+      },
+      {
+        "text": "Each natural wonder also has a signature effect. Most grant a permanent promotion to any unit, of any civilization, that moves next to them (like the Fountain of Youth's Rejuvenation):"
+      },
+      {"text": "Fountain of Youth: Rejuvenation, all healing doubled (military land units)", "starred": true},
+      {"text": "Mount Sinai: Revelation, +50% XP from combat (military units)", "starred": true},
+      {"text": "Mount Kailash: Altitude Training, double movement and +10% Strength in Hills (military land units)", "starred": true},
+      {"text": "Rock of Gibraltar: Pillars of Hercules, +1 Movement (military naval units)", "starred": true},
+      {"text": "Grand Mesa: Vantage, +1 Sight (land units)", "starred": true},
+      {"text": "Mount Fuji: Spirit of Fuji, no strength penalty when wounded (military land units)", "starred": true},
+      {"text": "Barringer Crater: Star Metal, +10% Strength (melee land units)", "starred": true},
+      {"text": "Uluru: Songlines, ignores Zone of Control (military land units)", "starred": true},
+      {"text": "Sri Pada: Pilgrim's Path, +1 Movement (civilian units)", "starred": true},
+      {"text": "The others act on their surroundings or their owner:"},
+      {"text": "Great Barrier Reef: any unit that ends its turn next to it, even yours, takes 20 damage", "starred": true},
+      {"text": "Krakatoa: enemy units that end their turn next to it, inside the borders of a civilization at war with them, take 30 damage", "starred": true},
+      {"text": "Old Faithful: units that end their turn next to it heal 20 HP, even after moving or fighting", "starred": true},
+      {"text": "Cerro de Potosi: while you own it, all your Mines yield +1 Gold", "starred": true},
+      {"text": "El Dorado: 500 Gold to the first civilization to discover it", "starred": true}
     ]
   },
   {

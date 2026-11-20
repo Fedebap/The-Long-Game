@@ -717,5 +717,14 @@
 	},
 	// The Long Game: morale statuses (H2)
 	{"name": "Shaken", "uniques": ["[-15]% Strength"], "civilopediaText": [{"text": "Status: this unit lost 50 or more HP in a single attack. -15% Strength for 1 turn."}]},
-	{"name": "Emboldened", "uniques": ["[+10]% Strength"], "civilopediaText": [{"text": "Status: this unit just defeated an enemy. +10% Strength for 2 turns."}]}
+	{"name": "Emboldened", "uniques": ["[+10]% Strength"], "civilopediaText": [{"text": "Status: this unit just defeated an enemy. +10% Strength for 2 turns."}]},
+	// The Long Game: signature natural wonder promotions (L2). Rejuvenation (Fountain of Youth) is vanilla, above.
+	{"name": "Revelation", "uniques": ["[+50]% XP gained from combat"], "civilopediaText": [{"text": "Permanent. Granted to units that move next to Mount Sinai (a natural wonder)."}]},
+	{"name": "Altitude Training", "uniques": ["Double movement in [Hill]", "[+10]% Strength <when fighting in [Hill] tiles>"], "civilopediaText": [{"text": "Permanent. Granted to units that move next to Mount Kailash (a natural wonder)."}]},
+	{"name": "Pillars of Hercules", "uniques": ["[+1] Movement"], "civilopediaText": [{"text": "Permanent. Granted to units that move next to the Rock of Gibraltar (a natural wonder)."}]},
+	{"name": "Vantage", "uniques": ["[+1] Sight"], "civilopediaText": [{"text": "Permanent. Granted to units that move next to the Grand Mesa (a natural wonder)."}]},
+	{"name": "Spirit of Fuji", "uniques": ["No damage penalty for wounded units"], "civilopediaText": [{"text": "Permanent. Granted to units that move next to Mount Fuji (a natural wonder)."}]},
+	{"name": "Star Metal", "uniques": ["[+10]% Strength"], "civilopediaText": [{"text": "Permanent. Granted to units that move next to the Barringer Crater (a natural wonder)."}]},
+	{"name": "Songlines", "uniques": ["Ignores Zone of Control"], "civilopediaText": [{"text": "Permanent. Granted to units that move next to Uluru (a natural wonder)."}]},
+	{"name": "Pilgrim's Path", "uniques": ["[+1] Movement"], "civilopediaText": [{"text": "Permanent. Granted to units that move next to Sri Pada (a natural wonder)."}]}
 ]
