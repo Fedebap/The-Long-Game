@@ -1117,9 +1117,9 @@
 		"cost": 60,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Creates a [Academy Quarter] improvement on a specific tile", "Requires at least [3] population", "Quarter"],
+		"uniques": ["Creates a [Academy Quarter] improvement on a specific tile", "Consumes [1] [Quarter Slots]", "Quarter"],
 		"greatPersonPoints": {"Great Scientist": 1},
-		"civilopediaText": [{"text": "Scholars gather around a library district. Place it next to Mountains, Jungle or other Quarters."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}, {"text": "+1 Great Scientist point per turn. +2 to the Quarter's yield for each adjacent Great Person improvement (Academy, Manufactory, Customs house, Landmark…)."}]
+		"civilopediaText": [{"text": "Scholars gather around a library district. +1 Science for each adjacent Mountain."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}, {"text": "+2 to its yield for each adjacent natural wonder. +1 Great Scientist point per turn."}, {"text": "A city has one Quarter Slot for every 4 Population: each Quarter uses one."}]
 	},
 	{
 		"name": "Market Quarter",
@@ -1127,9 +1127,9 @@
 		"cost": 70,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Creates a [Market Quarter] improvement on a specific tile", "Requires at least [3] population", "Quarter"],
+		"uniques": ["Creates a [Market Quarter] improvement on a specific tile", "Consumes [1] [Quarter Slots]", "Quarter"],
 		"greatPersonPoints": {"Great Merchant": 1},
-		"civilopediaText": [{"text": "A bazaar district. Place it next to Rivers, luxury resources or other Quarters."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}, {"text": "+1 Great Merchant point per turn. +2 to the Quarter's yield for each adjacent Great Person improvement (Academy, Manufactory, Customs house, Landmark…)."}]
+		"civilopediaText": [{"text": "A bazaar district. +1 Gold for each adjacent luxury resource."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}, {"text": "+2 to its yield for each adjacent natural wonder. +1 Great Merchant point per turn."}, {"text": "A city has one Quarter Slot for every 4 Population: each Quarter uses one."}]
 	},
 	{
 		"name": "Sacred Grove",
@@ -1137,9 +1137,9 @@
 		"cost": 60,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Creates a [Sacred Grove] improvement on a specific tile", "Requires at least [3] population", "Quarter"],
+		"uniques": ["Creates a [Sacred Grove] improvement on a specific tile", "Consumes [1] [Quarter Slots]", "Quarter"],
 		"greatPersonPoints": {"Great Artist": 1},
-		"civilopediaText": [{"text": "A holy district. Place it next to Forests, Mountains, Natural Wonders or other Quarters."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}, {"text": "+1 Great Artist point per turn. +2 to the Quarter's yield for each adjacent Great Person improvement (Academy, Manufactory, Customs house, Landmark…)."}]
+		"civilopediaText": [{"text": "A holy district. +1 Faith for each adjacent Forest."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}, {"text": "+2 to its yield for each adjacent natural wonder. +1 Great Artist point per turn."}, {"text": "A city has one Quarter Slot for every 4 Population: each Quarter uses one."}]
 	},
 	{
 		"name": "Artisan Quarter",
@@ -1147,9 +1147,9 @@
 		"cost": 80,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Creates a [Artisan Quarter] improvement on a specific tile", "Requires at least [3] population", "Quarter"],
+		"uniques": ["Creates a [Artisan Quarter] improvement on a specific tile", "Consumes [1] [Quarter Slots]", "Quarter"],
 		"greatPersonPoints": {"Great Engineer": 1},
-		"civilopediaText": [{"text": "A district of workshops and smithies. Place it next to Mines, Quarries, Lumber Mills or other Quarters."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}, {"text": "+1 Great Engineer point per turn. +2 to the Quarter's yield for each adjacent Great Person improvement (Academy, Manufactory, Customs house, Landmark…)."}]
+		"civilopediaText": [{"text": "A district of workshops and smithies. +1 Production for each adjacent Mine."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}, {"text": "+2 to its yield for each adjacent natural wonder. +1 Great Engineer point per turn."}, {"text": "A city has one Quarter Slot for every 4 Population: each Quarter uses one."}]
 	},
 	{
 		"name": "Garrison Quarter",
@@ -1157,8 +1157,8 @@
 		"cost": 60,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Creates a [Garrison Quarter] improvement on a specific tile", "Requires at least [3] population", "Quarter", "[+2] Unit Supply", "[+15]% Production when constructing [Military] units [in this city]", "Destroyed when the city is captured"],
-		"civilopediaText": [{"text": "Fortified barracks outside the walls: a strong defensive tile that wounds enemies ending their turn next to it."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}]
+		"uniques": ["Creates a [Garrison Quarter] improvement on a specific tile", "Consumes [1] [Quarter Slots]", "Quarter", "[+2] Unit Supply", "[+15]% Production when constructing [Military] units [in this city]", "Destroyed when the city is captured"],
+		"civilopediaText": [{"text": "Fortified barracks outside the walls: a strong defensive tile that wounds enemies ending their turn next to it."}, {"text": "The Quarter's tile always produces its full yield, even without a citizen working it."}, {"text": "A city has one Quarter Slot for every 4 Population: each Quarter uses one."}]
 	},
 	// =========================== The Long Game: Legacies (era choices) ===========================
 	// >>> LEGACIES (generated by tools/gen_legacies.py - do not edit by hand)
@@ -1288,13 +1288,13 @@
 	{"name": "Insight: Stealth", "cost": 0, "uniques": ["Unbuildable", "Unsellable", "Moves to new capital when capital changes", "Insight", "Will not be displayed in Civilopedia"], "civilopediaText": [{"text": "Insight earned (Have 6 aircraft): Stealth costs 33% less to research. Removed when you research it."}]},
 	// <<< INSIGHTS
 	// >>> COMPONENTS (generated by tools/gen_components.py - do not edit by hand)
-	{"name": "Castrum", "uniqueTo": "Rome", "replaces": "Garrison Quarter", "requiredTech": "Bronze Working", "cost": 60, "maintenance": 1, "hurryCostModifier": 25, "uniques": ["Creates a [Castrum] improvement on a specific tile", "Requires at least [3] population", "Quarter", "[+2] Unit Supply", "[+15]% Production when constructing [Military] units [in this city]", "Destroyed when the city is captured", "New [Military] units start with [10] XP [in this city]"], "civilopediaText": [{"text": "A Roman legionary camp. A Garrison Quarter whose city also trains units with +10 XP."}]},
+	{"name": "Castrum", "uniqueTo": "Rome", "replaces": "Garrison Quarter", "requiredTech": "Bronze Working", "cost": 60, "maintenance": 1, "hurryCostModifier": 25, "uniques": ["Creates a [Castrum] improvement on a specific tile", "Consumes [1] [Quarter Slots]", "Quarter", "[+2] Unit Supply", "[+15]% Production when constructing [Military] units [in this city]", "Destroyed when the city is captured", "New [Military] units start with [10] XP [in this city]"], "civilopediaText": [{"text": "A Roman legionary camp. A Garrison Quarter whose city also trains units with +10 XP."}]},
 	{"name": "Basilica", "uniqueTo": "Rome", "replaces": "Courthouse", "maintenance": 2, "hurryCostModifier": 50, "uniques": ["Removes extra unhappiness from annexed cities"], "requiredTech": "Mathematics", "culture": 1, "happiness": 1, "civilopediaText": [{"text": "Hall of law and commerce at the heart of every Roman town. A Courthouse that can be built in any city: +1 Culture, +1 Happiness, 2 upkeep."}]},
-	{"name": "Jiphyeonjeon", "uniqueTo": "Korea", "replaces": "Academy Quarter", "requiredTech": "Writing", "cost": 60, "maintenance": 1, "hurryCostModifier": 25, "uniques": ["Creates a [Jiphyeonjeon] improvement on a specific tile", "Requires at least [3] population", "Quarter"], "greatPersonPoints": {"Great Scientist": 2}, "civilopediaText": [{"text": "Sejong's Hall of Worthies. An Academy Quarter: its tile also gives +1 Culture, and it adds 2 Great Scientist points instead of 1."}]},
+	{"name": "Jiphyeonjeon", "uniqueTo": "Korea", "replaces": "Academy Quarter", "requiredTech": "Writing", "cost": 60, "maintenance": 1, "hurryCostModifier": 25, "uniques": ["Creates a [Jiphyeonjeon] improvement on a specific tile", "Consumes [1] [Quarter Slots]", "Quarter"], "greatPersonPoints": {"Great Scientist": 2}, "civilopediaText": [{"text": "Sejong's Hall of Worthies. An Academy Quarter: its tile also gives +1 Culture, and it adds 2 Great Scientist points instead of 1."}]},
 	{"name": "Sanseong", "uniqueTo": "Korea", "replaces": "Castle", "cityStrength": 9, "cityHealth": 40, "hurryCostModifier": 25, "requiredBuilding": "Walls", "requiredTech": "Chivalry", "uniques": ["Destroyed when the city is captured", "[All] Units adjacent to this city heal [+10] HP per turn when healing"], "civilopediaText": [{"text": "A mountain fortress. A Castle with +9 city strength (was 7), +40 HP (was 25), and adjacent units heal 10 more HP."}]},
-	{"name": "Deir el-Medina", "uniqueTo": "Egypt", "replaces": "Artisan Quarter", "requiredTech": "Construction", "cost": 80, "maintenance": 1, "hurryCostModifier": 25, "uniques": ["Creates a [Deir el-Medina] improvement on a specific tile", "Requires at least [3] population", "Quarter", "[+15]% Production when constructing [All] wonders [in this city]"], "greatPersonPoints": {"Great Engineer": 1}, "civilopediaText": [{"text": "The village of the tomb builders. An Artisan Quarter whose city also builds wonders 15% faster."}]},
+	{"name": "Deir el-Medina", "uniqueTo": "Egypt", "replaces": "Artisan Quarter", "requiredTech": "Construction", "cost": 80, "maintenance": 1, "hurryCostModifier": 25, "uniques": ["Creates a [Deir el-Medina] improvement on a specific tile", "Consumes [1] [Quarter Slots]", "Quarter", "[+15]% Production when constructing [All] wonders [in this city]"], "greatPersonPoints": {"Great Engineer": 1}, "civilopediaText": [{"text": "The village of the tomb builders. An Artisan Quarter whose city also builds wonders 15% faster."}]},
 	{"name": "Tlachtli", "uniqueTo": "Aztecs", "replaces": "Circus", "requiredNearbyImprovedResources": ["Ivory", "Horses"], "happiness": 2, "hurryCostModifier": 25, "requiredTech": "Trapping", "faith": 1, "culture": 1, "civilopediaText": [{"text": "A sacred ballcourt. A Circus that also gives +1 Faith and +1 Culture."}]},
-	{"name": "Teocalli", "uniqueTo": "Aztecs", "replaces": "Sacred Grove", "requiredTech": "Philosophy", "cost": 60, "maintenance": 1, "hurryCostModifier": 25, "uniques": ["Creates a [Teocalli] improvement on a specific tile", "Requires at least [3] population", "Quarter"], "greatPersonPoints": {"Great Artist": 1}, "civilopediaText": [{"text": "A temple pyramid. A Sacred Grove whose tile gives +2 Culture instead of +1."}]},
+	{"name": "Teocalli", "uniqueTo": "Aztecs", "replaces": "Sacred Grove", "requiredTech": "Philosophy", "cost": 60, "maintenance": 1, "hurryCostModifier": 25, "uniques": ["Creates a [Teocalli] improvement on a specific tile", "Consumes [1] [Quarter Slots]", "Quarter"], "greatPersonPoints": {"Great Artist": 1}, "civilopediaText": [{"text": "A temple pyramid. A Sacred Grove whose tile gives +2 Culture instead of +1."}]},
 	{"name": "Katholikon", "uniqueTo": "Byzantium", "replaces": "Temple", "faith": 2, "requiredBuilding": "Shrine", "maintenance": 1, "hurryCostModifier": 25, "requiredTech": "Philosophy", "uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"], "culture": 1, "civilopediaText": [{"text": "The main church of a monastery. A Temple that also gives +1 Culture, with 1 upkeep (was 2)."}]},
 	{"name": "Edubba", "uniqueTo": "Babylon", "replaces": "Library", "hurryCostModifier": 25, "maintenance": 1, "uniques": ["[+1 Science] per [2] population [in this city]"], "requiredTech": "Writing", "culture": 1, "greatPersonPoints": {"Great Scientist": 1}, "civilopediaText": [{"text": "The 'tablet house' where scribes were trained. A Library that also gives +1 Culture and 1 Great Scientist point."}]},
 	{"name": "Ziggurat", "uniqueTo": "Babylon", "replaces": "Shrine", "faith": 1, "cost": 40, "maintenance": 1, "requiredTech": "Pottery", "uniques": ["Only available <when religion is enabled>"], "science": 1, "civilopediaText": [{"text": "A stepped temple tower and observatory. A Shrine that also gives +1 Science."}]},
@@ -1305,7 +1305,7 @@
 	{"name": "Griot House", "uniqueTo": "Mali", "replaces": "Amphitheater", "culture": 4, "specialistSlots": {"Artist": 1}, "requiredBuilding": "Monument", "maintenance": 2, "hurryCostModifier": 25, "uniques": ["Destroyed when the city is captured"], "requiredTech": "Drama and Poetry", "greatPersonPoints": {"Great Artist": 1}, "civilopediaText": [{"text": "Where the griots keep a people's memory in song. An Amphitheater with +4 Culture (was 3) and 1 Great Artist point."}]},
 	{"name": "Sukiennice", "uniqueTo": "Poland", "replaces": "Market", "gold": 3, "specialistSlots": {"Merchant": 1}, "hurryCostModifier": 25, "percentStatBonus": {"gold": 25}, "requiredTech": "Currency", "culture": 1, "civilopediaText": [{"text": "The Cloth Hall of Kraków. A Market with +3 Gold (was 2) and +1 Culture."}]},
 	{"name": "Sejm", "uniqueTo": "Poland", "replaces": "Courthouse", "maintenance": 2, "hurryCostModifier": 50, "uniques": ["Removes extra unhappiness from annexed cities"], "requiredTech": "Mathematics", "culture": 2, "civilopediaText": [{"text": "The noble parliament of the Golden Liberty. A Courthouse that can be built in any city: +2 Culture, 2 upkeep."}]},
-	{"name": "Intihuatana", "uniqueTo": "Inca", "replaces": "Sacred Grove", "requiredTech": "Philosophy", "cost": 60, "maintenance": 1, "hurryCostModifier": 25, "uniques": ["Creates a [Intihuatana] improvement on a specific tile", "Requires at least [3] population", "Quarter"], "greatPersonPoints": {"Great Artist": 1}, "civilopediaText": [{"text": "The 'hitching post of the sun'. A Sacred Grove whose tile gets +2 Faith (instead of +1) for each adjacent Mountain."}]},
+	{"name": "Intihuatana", "uniqueTo": "Inca", "replaces": "Sacred Grove", "requiredTech": "Philosophy", "cost": 60, "maintenance": 1, "hurryCostModifier": 25, "uniques": ["Creates a [Intihuatana] improvement on a specific tile", "Consumes [1] [Quarter Slots]", "Quarter"], "greatPersonPoints": {"Great Artist": 1}, "civilopediaText": [{"text": "The 'hitching post of the sun'. A Sacred Grove whose tile also gets +2 Faith for each adjacent Mountain."}]},
 	{"name": "Bruk", "uniqueTo": "Sweden", "replaces": "Forge", "maintenance": 1, "hurryCostModifier": 25, "requiredNearbyImprovedResources": ["Iron"], "requiredTech": "Metal Casting", "uniques": ["[+15]% Production when constructing [Land] units [in this city]", "[+1 Production] from [Iron] tiles [in this city]", "[+1 Production] from [Mine] tiles [in this city]"], "production": 1, "civilopediaText": [{"text": "An ironworks village. A Forge that also gives +1 Production, and +1 Production on every Mine of the city."}]},
 	{"name": "Ikanda", "uniqueTo": "Zulu", "replaces": "Barracks", "hurryCostModifier": 25, "maintenance": 1, "uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "[+1] Unit Supply", "[+15]% Production when constructing [Melee] units [in this city]"], "requiredTech": "Bronze Working", "civilopediaText": [{"text": "A royal military homestead. Barracks with +1 unit supply and +15% Production towards melee units."}]},
 	{"name": "Hammam", "uniqueTo": "The Ottomans", "replaces": "Aqueduct", "maintenance": 1, "hurryCostModifier": 0, "uniques": ["[40]% Food is carried over after population increases [in this city]"], "requiredTech": "Engineering", "happiness": 1, "civilopediaText": [{"text": "The public bathhouse. An Aqueduct that also gives +1 Happiness."}]},

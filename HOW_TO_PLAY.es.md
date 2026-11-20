@@ -11,8 +11,8 @@ edificio y opción de evento indica su efecto exacto.
 1. **Hacer cosas acelera la investigación.** Casi todas las tecnologías tienen un *Insight*: construir 2 Mines, conocer
    otra civilización, derrotar una unidad… y esa tecnología pasa a costar un 33% menos. La condición está en la
    descripción de la tecnología.
-2. **Construye Quarters.** Distritos ligeros: eliges una casilla, que rinde sin que nadie la trabaje, y sus vecinas
-   le suman. Varios edificios posteriores (University, Bank, Workshop, Grand Temple) necesitan su Quarter.
+2. **Construye Quarters.** Distritos ligeros: eliges una casilla, que rinde sin que nadie la trabaje. Una ciudad admite
+   un Quarter por cada 4 de población. Varios edificios posteriores (University, Bank, Workshop, Grand Temple) necesitan su Quarter.
 3. **Elige una Legacy en cada era.** Un bonus permanente en tu capital. Tus elecciones van formando la identidad de tu civilización.
 4. **La guerra tiene un precio.** La *War Weariness* sube mientras luchas y vuelve infeliz a tu pueblo. Perder una
    ciudad o ser atacado te da herramientas para remontar.
@@ -50,23 +50,21 @@ edificio y opción de evento indica su efecto exacto.
 
 ## Quarters (distritos ligeros)
 
-Se construyen como un edificio (ciudad con 3 o más de población, 1 de Gold de mantenimiento). Tú eliges la casilla, que
-no puede tener un recurso. La casilla **rinde sin que un ciudadano la trabaje**, y cada elemento vecino suma +1.
+Se construyen como un edificio (1 de Gold de mantenimiento). Tú eliges la casilla, que no puede tener un recurso. La
+casilla **rinde sin que un ciudadano la trabaje**. Cada ciudad tiene **un Quarter Slot por cada 4 de población** (4, 8,
+12…) y cada Quarter ocupa uno, así que elige los que la ciudad necesita.
 
-| Quarter | Tecnología | Base | +1 por cada vecino | Desbloquea |
+| Quarter | Tecnología | Base | Bonificación | Desbloquea |
 |---|---|---|---|---|
-| Academy Quarter | Writing | +1 Science | Mountain, Jungle, Quarter (+2 por Natural Wonder) | University |
-| Market Quarter | Currency | +1 Gold | River, recurso de lujo, Quarter (+2 por Natural Wonder) | Bank |
-| Sacred Grove | Philosophy | +1 Faith, +1 Culture | Forest, Mountain, Quarter (+2 Faith por Natural Wonder) | Grand Temple |
-| Artisan Quarter | Construction | +1 Production | Mine, Quarry, Lumber mill, Quarter (+2 por Natural Wonder) | Workshop |
+| Academy Quarter | Writing | +2 Science | +1 por cada Mountain vecina | University |
+| Market Quarter | Currency | +2 Gold | +1 por cada recurso de lujo vecino | Bank |
+| Sacred Grove | Philosophy | +2 Faith, +1 Culture | +1 Faith por cada Forest vecino | Grand Temple |
+| Artisan Quarter | Construction | +2 Production | +1 por cada Mine vecina | Workshop |
 | Garrison Quarter | Bronze Working | +50% de defensa en su casilla; los enemigos vecinos reciben 10 de daño por turno | — | +2 de suministro de unidades, +15% de producción militar en la ciudad |
 
-**A los Great People les gustan los Quarters.** Cada Quarter, salvo el Garrison, suma 1 punto de Great Person por turno
-(Academy: Scientist, Market: Merchant, Artisan: Engineer, Sacred Grove: Artist) y gana **+2** por cada mejora de
-Great Person vecina (Academy, Manufactory, Customs house, Landmark…).
-
-Consejos: los Quarters vecinos se potencian entre sí, así que agrúpalos y coloca a tus Great People a su lado. Se pueden
-saquear, así que una incursión duele de verdad.
+Todos los Quarters (salvo el Garrison) ganan además **+2 junto a una maravilla natural** y suman 1 punto de Great Person
+por turno (Academy: Scientist, Market: Merchant, Artisan: Engineer, Sacred Grove: Artist). Se pueden saquear, así que una
+incursión duele de verdad.
 
 ## Legacies (una elección por era)
 

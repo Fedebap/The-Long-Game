@@ -35,13 +35,13 @@
         "text": "Quarters are city buildings that place a special tile improvement where you choose: Academy (Science), Market (Gold), Sacred Grove (Faith and Culture), Artisan (Production) and Garrison (defence)."
       },
       {
-        "text": "The Quarter's tile always produces its full yield, even without a citizen working it, plus +1 for each matching neighbour: Mountains and Jungle for the Academy, Rivers and luxuries for the Market, Forests and Mountains for the Sacred Grove, Mines, Quarries and Lumber Mills for the Artisan. Every Quarter also likes other Quarters."
+        "text": "The Quarter's tile always produces its full yield, even without a citizen working it: +2 of its yield, plus +1 for each adjacent Mountain (Academy), luxury resource (Market), Forest (Sacred Grove) or Mine (Artisan), and +2 next to a natural wonder."
       },
       {
-        "text": "Universities need an Academy Quarter, Banks a Market Quarter, Workshops an Artisan Quarter and the Grand Temple a Sacred Grove. A city needs 3 population to build a Quarter. Enemies can pillage Quarter tiles."
+        "text": "Universities need an Academy Quarter, Banks a Market Quarter, Workshops an Artisan Quarter and the Grand Temple a Sacred Grove. Each city has one Quarter Slot for every 4 Population (4, 8, 12…), and each Quarter uses one. Enemies can pillage Quarter tiles."
       },
       {
-        "text": "Great People love Quarters: each Quarter (except the Garrison) adds 1 Great Person point per turn (Academy: Scientist, Market: Merchant, Artisan: Engineer, Sacred Grove: Artist), and gets +2 to its yield for every adjacent Great Person improvement (Academy, Manufactory, Customs house, Landmark, Holy site, Citadel)."
+        "text": "Each Quarter (except the Garrison) adds 1 Great Person point per turn (Academy: Scientist, Market: Merchant, Artisan: Engineer, Sacred Grove: Artist)."
       }
     ]
   },

@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.3.2-alpha (2026-11-20)
+Simpler, rarer Quarters: one terrain bonus each and one Quarter per 4 Population. Start new games with it.
+
+- **Quarters, simpler and fewer** (playtest: too many, and planning a city took ages):
+  - Base yield +2 (was +1); the Sacred Grove +2 Faith, +1 Culture.
+  - One adjacency each: Academy +1 per Mountain, Market +1 per luxury resource, Sacred Grove +1 Faith per Forest,
+    Artisan +1 per Mine, and every Quarter +2 next to a natural wonder. Gone: other Quarters, Great Person improvements,
+    Jungle, Rivers, Quarries, Lumber mills, Mountains for the Sacred Grove.
+  - **Quarter Slots:** a city has one slot for every 4 Population, and each Quarter uses one (replaces "needs 3 population").
+  - The Inca Intihuatana keeps +2 Faith per adjacent Mountain on top of the Forest bonus.
+
 ## v0.3.1-alpha (2026-11-20)
 Natural wonders become a gameplay point, plus a big balance fix for Korea, Egypt, Byzantium and Mali. Start new games with it.
 

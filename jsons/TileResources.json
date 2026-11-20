@@ -511,6 +511,12 @@
 	// =========================== The Long Game: meters & timers ===========================
 	// Stockpiled 'Strategic' resources so they show in the top bar; hidden while at 0. See docs/CONVENTIONS.md
 	{
+		"name": "Quarter Slots", // The Long Game: one per 4 Population in each city; every Quarter consumes one
+		"resourceType": "Strategic",
+		"uniques": ["City-level resource", "Cannot be traded", "Doesn't generate naturally", "Excluded from map editor", "Not shown on world screen"],
+		"civilopediaText": [{"text": "Each city has one Quarter Slot for every 4 Population. Every Quarter (Academy, Market, Artisan, Garrison, Sacred Grove) uses one, so small cities hold few Quarters."}]
+	},
+	{
 		"name": "Strain",
 		"resourceType": "Strategic",
 		"uniques": ["Stockpiled",

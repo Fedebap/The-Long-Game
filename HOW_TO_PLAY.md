@@ -9,8 +9,8 @@ in the in-game Civilopedia, and every tech, building and event choice states its
 
 1. **Do things to research faster.** Most techs have an *Insight*: build 2 Mines, meet a civ, defeat a unit… and that
    tech becomes 33% cheaper to research. The condition is in the tech's description.
-2. **Build Quarters.** Light districts: pick a tile, it yields without a worker, and its neighbours add to it. Later
-   buildings (University, Bank, Workshop, Grand Temple) need the matching Quarter.
+2. **Build Quarters.** Light districts: pick a tile, it yields without a worker. A city holds one Quarter per 4 Population.
+   Later buildings (University, Bank, Workshop, Grand Temple) need the matching Quarter.
 3. **Pick a Legacy each era.** A permanent bonus in your capital; your choices add up to your civ's identity.
 4. **Wars cost something.** *War Weariness* grows while you fight and makes your people unhappy. Losing a city or being
    attacked gives you comeback tools.
@@ -46,23 +46,20 @@ in the in-game Civilopedia, and every tech, building and event choice states its
 
 ## Quarters (light districts)
 
-Built like a building (city of 3+ population, 1 Gold upkeep). You choose the tile, which can't have a resource.
-The tile **yields without a citizen working it**, and each adjacent feature adds +1.
+Built like a building (1 Gold upkeep). You choose the tile, which can't have a resource. The tile **yields without a
+citizen working it**. A city has **one Quarter Slot for every 4 Population** (4, 8, 12…), and each Quarter uses one, so
+pick the ones the city needs.
 
-| Quarter | Tech | Base | +1 for each adjacent | Unlocks |
+| Quarter | Tech | Base | Bonus | Unlocks |
 |---|---|---|---|---|
-| Academy Quarter | Writing | +1 Science | Mountain, Jungle, Quarter (+2 per Natural Wonder) | University |
-| Market Quarter | Currency | +1 Gold | River, luxury resource, Quarter (+2 per Natural Wonder) | Bank |
-| Sacred Grove | Philosophy | +1 Faith, +1 Culture | Forest, Mountain, Quarter (+2 Faith per Natural Wonder) | Grand Temple |
-| Artisan Quarter | Construction | +1 Production | Mine, Quarry, Lumber mill, Quarter (+2 per Natural Wonder) | Workshop |
+| Academy Quarter | Writing | +2 Science | +1 per adjacent Mountain | University |
+| Market Quarter | Currency | +2 Gold | +1 per adjacent luxury resource | Bank |
+| Sacred Grove | Philosophy | +2 Faith, +1 Culture | +1 Faith per adjacent Forest | Grand Temple |
+| Artisan Quarter | Construction | +2 Production | +1 per adjacent Mine | Workshop |
 | Garrison Quarter | Bronze Working | +50% defence on its tile; adjacent enemies take 10 damage per turn | — | +2 unit supply, +15% military production in the city |
 
-**Great People love Quarters.** Each Quarter except the Garrison adds 1 Great Person point per turn (Academy: Scientist,
-Market: Merchant, Artisan: Engineer, Sacred Grove: Artist), and gets **+2** for every adjacent Great Person improvement
-(Academy, Manufactory, Customs house, Landmark…).
-
-Tips: Quarters next to each other boost each other, so cluster them, and plant your Great People next to them. They can be
-pillaged, which makes raids hurt.
+Every Quarter (except the Garrison) also gets **+2 next to a natural wonder**, and adds 1 Great Person point per turn
+(Academy: Scientist, Market: Merchant, Artisan: Engineer, Sacred Grove: Artist). Quarters can be pillaged, which makes raids hurt.
 
 ## Legacies (one choice per era)
 
