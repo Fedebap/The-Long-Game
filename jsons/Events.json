@@ -1,0 +1,360 @@
+[
+    {
+        "name":"Tutorial Task: [Move unit]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Move a unit!", "centered":true},
+            {"extraImage":"Tutorials/Move unit", "imageSize":140},
+            {"text":"Click on a unit → Click on a destination → Click the arrow popup."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Units] is more than [0]>",
+            "Unavailable <if tutorial [Move unit] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Found city]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Found a city!", "centered":true},
+            {"extraImage":"Tutorials/Found city", "imageSize":140},
+            {"text":"Select the Settler → Click on 'Found city'."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [[Settler] Units] is more than [0]>",
+            "Unavailable <if tutorial [Found city] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Enter city screen]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Enter the city screen!", "centered":true},
+            {"extraImage":"Tutorials/Enter city screen", "imageSize":100},
+            {"text":"Click the city button twice."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Enter city screen] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Pick technology]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Pick a technology to research!", "centered":true},
+            {"extraImage":"Tutorials/Pick technology", "imageSize":180},
+            {"text":"Click on the tech button → Select technology → Click 'Research' (bottom right)."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <if tutorial [Found city] is completed>",
+            "Unavailable <if tutorial [Pick technology] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Pick construction]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Pick a construction!", "centered":true},
+            {"extraImage":"Tutorials/Pick construction", "imageSize":120},
+            {"text":"Enter city screen → Click on a unit or building → Click 'add to queue'."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Pick construction] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Pass a turn]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Pass a turn!", "centered":true},
+            {"extraImage":"Tutorials/Pass a turn", "imageSize":180},
+            {"text":"Cycle through units with 'Next unit' → Click 'Next turn'."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [turns] is less than [3]>",
+            "Unavailable <if tutorial [Pass a turn] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Reassign worked tiles]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Reassign worked tiles!", "centered":true},
+            {"extraImage":"Tutorials/Reassign worked tiles", "imageSize":140},
+            {"text":"Enter city screen → Click the assigned tile to unassign → Click an unassigned tile to assign population."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Reassign worked tiles] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Meet another civilization]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Meet another civilization!", "centered": true},
+            {"extraImage":"Tutorials/Meet another civilization", "imageSize":160},
+            {"text":"Explore the map until you encounter another civilization!"},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [turns] is more than [1]>",
+            "Unavailable <if tutorial [Meet another civilization] is completed>"
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [Meet another civilization] complete"],
+            },
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Open the options table]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Open the options dialog!", "centered":true},
+            {"extraImage":"Tutorials/Open the options table", "imageSize":130},
+            {"text":"Click the menu button (top left) → Click 'Options'."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled>",
+            "Unavailable <if tutorial [Open the options table] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Construct an improvement]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Construct an improvement!", "centered":true},
+            {"extraImage":"Tutorials/Construct an improvement", "imageSize":150},
+            {"text":"Construct a Worker unit → Move it to a Plains or Grassland tile → Click 'Construct improvement' → Choose the farm → Leave the worker there until it's finished."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Construct an improvement] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Create a trade route]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Create a trade route!", "centered":true},
+            {"extraImage":"Tutorials/Create a trade route", "imageSize":120},
+            {"text":"Construct roads between your capital and another city. Or, automate your worker and let him get to that eventually."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [1]>",
+            "Unavailable <if tutorial [Create a trade route] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Conquer a city]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Conquer a city!", "centered":true},
+            {"extraImage":"Tutorials/Conquer a city", "imageSize":160},
+            {"text":"Bring an enemy city down to low health → Enter the city with a melee unit."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when at war>",
+            "Unavailable <if tutorial [Conquer a city] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Move an air unit]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Move an air unit!", "centered":true},
+            {"extraImage":"Tutorials/Move an air unit", "imageSize":140},
+            {"text":"Select an air unit → Select another city within range → Move the unit to the other city."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [[Air] Units] is more than [0]>",
+            "Unavailable <if tutorial [Move an air unit] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [See your stats breakdown]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"See your stats breakdown!", "centered":true},
+            {"extraImage":"Tutorials/See your stats breakdown", "imageSize":140},
+            {"text":"Enter the Overview screen (top right corner) → Click on 'Stats'."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled>",
+            "Unavailable <if tutorial [See your stats breakdown] is completed>"
+        ]
+    },
+    // =====================================================================================
+    // THE LONG GAME events
+    // =====================================================================================
+    {
+        "name": "Rally the Nation",
+        "text": "One of our cities has fallen to the enemy! The people refuse to accept defeat. How shall we rally the nation?",
+        "presentation": "Alert",
+        "uniques": [
+            // Comebacks are for the underdog: not while overextended, and at most once per 15 turns (Standard speed)
+            "Only available <when number of [Rally Cooldown] is less than [1]> <when number of [Strain] is less than [1]>"
+        ],
+        "choices": [
+            {
+                "text": "Levée en masse",
+                "uniques": [
+                    "[2] free [Spearman] units appear <before the [Medieval era]>",
+                    "[2] free [Pikeman] units appear <during the [Medieval era]>",
+                    "[2] free [Musketman] units appear <during the [Renaissance era]>",
+                    "[2] free [Rifleman] units appear <during the [Industrial era]>",
+                    "[2] free [Infantry] units appear <starting from the [Modern era]>",
+                    "Instantly gain [15] [Rally Cooldown] <(modified by game speed)> <hidden from users>",
+                    "[+50]% weight to this choice for AI decisions"
+                ]
+            },
+            {
+                "text": "Scorched Earth",
+                "civilopediaText": [{"text": "+20% Strength for your units fighting inside your territory for 10 turns (scaled by game speed)."}],
+                "uniques": [
+                    "Set [Scorched Earth] to [floor(10 * [Speed modifier for [Food]] / 100 + 0.5)] <hidden from users>",
+                    "Instantly gain [15] [Rally Cooldown] <(modified by game speed)> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Call the Generals",
+                "uniques": [
+                    "Free [Great General] appears",
+                    "Instantly gain [15] [Rally Cooldown] <(modified by game speed)> <hidden from users>"
+                ]
+            }
+        ]
+    },
+    // =========================== Conquest, alliances, golden ages ===========================
+    {
+        "name": "Conquest",
+        "text": "Our armies have taken a city. What shall we do with it?",
+        "presentation": "Alert",
+        "choices": [
+            {"text": "Plunder", "civilopediaText": [{"text": "+100 Gold (scaled by game speed), but the people grow wearier of war (+3 War Weariness)."}],
+             "uniques": ["Gain [100] [Gold] <(modified by game speed)>", "Instantly gain [3] [War Weariness] <hidden from users>"]},
+            {"text": "Integrate", "civilopediaText": [{"text": "Spend 50 Gold (scaled by game speed) to win the city over: -3 War Weariness."}],
+             "uniques": ["Gain [-50] [Gold] <(modified by game speed)> <hidden from users>", "Set [War Weariness] to [max(0, [War Weariness] - 3)] <hidden from users>", "Only available <when above [49] [Gold]>"]},
+            {"text": "Garrison", "civilopediaText": [{"text": "A free defensive unit of the current era to hold the new territory."}],
+             "uniques": ["Free [Spearman] appears <before the [Medieval era]>", "Free [Pikeman] appears <during the [Medieval era]>",
+                         "Free [Musketman] appears <during the [Renaissance era]>", "Free [Rifleman] appears <during the [Industrial era]>",
+                         "Free [Infantry] appears <starting from the [Modern era]>"]}
+        ]
+    },
+    {
+        "name": "Alliance",
+        "text": "Our bond with a fellow nation is sealed. How shall we profit from it?",
+        "presentation": "Alert",
+        "choices": [
+            {"text": "Joint Research", "civilopediaText": [{"text": "+5% Science in all cities for 20 turns (scaled by game speed)."}],
+             "uniques": ["Set [Joint Research] to [max([Joint Research], floor(20 * [Speed modifier for [Food]] / 100 + 0.5))] <hidden from users>"]},
+            {"text": "Arms Exchange", "civilopediaText": [{"text": "New military units start with 10 XP for 20 turns (scaled by game speed)."}],
+             "uniques": ["Set [Arms Exchange] to [max([Arms Exchange], floor(20 * [Speed modifier for [Food]] / 100 + 0.5))] <hidden from users>"]},
+            {"text": "Trade Compact", "civilopediaText": [{"text": "+1 Gold in every city for 20 turns (scaled by game speed)."}],
+             "uniques": ["Set [Trade Compact] to [max([Trade Compact], floor(20 * [Speed modifier for [Food]] / 100 + 0.5))] <hidden from users>"]}
+        ]
+    },
+    {
+        "name": "Golden Age",
+        "text": "A Golden Age begins! Where shall our people pour their energy?",
+        "presentation": "Alert",
+        "choices": [
+            {"text": "Arts", "civilopediaText": [{"text": "+20% Culture in all cities during this Golden Age."}], "uniques": ["Set [Golden Age Focus] to [1] <hidden from users>"]},
+            {"text": "Industry", "civilopediaText": [{"text": "+15% Production in all cities during this Golden Age."}], "uniques": ["Set [Golden Age Focus] to [2] <hidden from users>"]},
+            {"text": "Learning", "civilopediaText": [{"text": "+15% Science in all cities during this Golden Age."}], "uniques": ["Set [Golden Age Focus] to [3] <hidden from users>"]}
+        ]
+    },
+    // =========================== Legacies (era choices) ===========================
+    // >>> LEGACIES (generated by tools/gen_legacies.py - do not edit by hand)
+    {
+        "name": "Founding Myth",
+        "text": "Our people have settled their first city. Which story will they tell their children?",
+        "presentation": "Alert",
+        "choices": [
+            {"text": "Warrior Clans", "civilopediaText": [{"text": "+25% Strength vs barbarians. New military units start with 5 XP."}], "uniques": ["Gain a free [Warrior Clans Legacy] [in capital] <hidden from users>", "Unavailable <if [Warrior Clans Legacy] is constructed>"]},
+            {"text": "Master Builders", "civilopediaText": [{"text": "+1 Production in the capital. +10% Production towards buildings in the capital."}], "uniques": ["Gain a free [Master Builders Legacy] [in capital] <hidden from users>", "Unavailable <if [Master Builders Legacy] is constructed>"]},
+            {"text": "Mystic Visions", "civilopediaText": [{"text": "+1 Faith and +1 Culture in the capital."}], "uniques": ["Gain a free [Mystic Visions Legacy] [in capital] <hidden from users>", "Unavailable <if [Mystic Visions Legacy] is constructed>"]},
+        ]
+    },
+    {
+        "name": "Classical Legacy",
+        "text": "A new age of empires dawns. What will our civilization be remembered for?",
+        "presentation": "Alert",
+        "choices": [
+            {"text": "Legions", "civilopediaText": [{"text": "+15% Production towards melee units."}], "uniques": ["Gain a free [Legions Legacy] [in capital] <hidden from users>", "Unavailable <if [Legions Legacy] is constructed>"]},
+            {"text": "Bread and Circuses", "civilopediaText": [{"text": "+1 Happiness from every Colosseum and every Amphitheater."}], "uniques": ["Gain a free [Bread and Circuses Legacy] [in capital] <hidden from users>", "Unavailable <if [Bread and Circuses Legacy] is constructed>"]},
+            {"text": "Lyceum", "civilopediaText": [{"text": "+1 Science from every Library."}], "uniques": ["Gain a free [Lyceum Legacy] [in capital] <hidden from users>", "Unavailable <if [Lyceum Legacy] is constructed>"]},
+            {"text": "Rising Star", "civilopediaText": [{"text": "We lag behind the world. Take a free technology instead of a Legacy."}], "uniques": ["Free Technology", "Only available <when number of [Techs Known] is less than [([[Techs Known] resource of [Major] Civilizations] - [Techs Known]) / max(1, [Remaining [Major] Civilizations] - 1) - 2]>", "[+100]% weight to this choice for AI decisions"]},
+        ]
+    },
+    {
+        "name": "Medieval Legacy",
+        "text": "Castles rise and faiths spread. What will define our realm?",
+        "presentation": "Alert",
+        "choices": [
+            {"text": "Chivalry", "civilopediaText": [{"text": "New mounted units start with 15 XP."}], "uniques": ["Gain a free [Chivalry Legacy] [in capital] <hidden from users>", "Unavailable <if [Chivalry Legacy] is constructed>"]},
+            {"text": "Guilds", "civilopediaText": [{"text": "+1 Production from every Workshop. +1 Gold from every Market."}], "uniques": ["Gain a free [Guilds Legacy] [in capital] <hidden from users>", "Unavailable <if [Guilds Legacy] is constructed>"]},
+            {"text": "Pilgrimage", "civilopediaText": [{"text": "+1 Faith and +1 Culture from every Temple."}], "uniques": ["Gain a free [Pilgrimage Legacy] [in capital] <hidden from users>", "Unavailable <if [Pilgrimage Legacy] is constructed>"]},
+            {"text": "Rising Star", "civilopediaText": [{"text": "We lag behind the world. Take a free technology instead of a Legacy."}], "uniques": ["Free Technology", "Only available <when number of [Techs Known] is less than [([[Techs Known] resource of [Major] Civilizations] - [Techs Known]) / max(1, [Remaining [Major] Civilizations] - 1) - 2]>", "[+100]% weight to this choice for AI decisions"]},
+        ]
+    },
+    {
+        "name": "Renaissance Legacy",
+        "text": "New worlds and new ideas. Where will our ambition turn?",
+        "presentation": "Alert",
+        "choices": [
+            {"text": "Conquistadors", "civilopediaText": [{"text": "+1 Movement for military ships. New naval units start with 15 XP."}], "uniques": ["Gain a free [Conquistadors Legacy] [in capital] <hidden from users>", "Unavailable <if [Conquistadors Legacy] is constructed>"]},
+            {"text": "Banking", "civilopediaText": [{"text": "+10% Gold in all cities."}], "uniques": ["Gain a free [Banking Legacy] [in capital] <hidden from users>", "Unavailable <if [Banking Legacy] is constructed>"]},
+            {"text": "Patronage", "civilopediaText": [{"text": "+15% Great Person generation in all cities."}], "uniques": ["Gain a free [Patronage Legacy] [in capital] <hidden from users>", "Unavailable <if [Patronage Legacy] is constructed>"]},
+            {"text": "Rising Star", "civilopediaText": [{"text": "We lag behind the world. Take a free technology instead of a Legacy."}], "uniques": ["Free Technology", "Only available <when number of [Techs Known] is less than [([[Techs Known] resource of [Major] Civilizations] - [Techs Known]) / max(1, [Remaining [Major] Civilizations] - 1) - 2]>", "[+100]% weight to this choice for AI decisions"]},
+        ]
+    },
+    {
+        "name": "Industrial Legacy",
+        "text": "Steam and steel change everything. How will we harness them?",
+        "presentation": "Alert",
+        "choices": [
+            {"text": "Conscription", "civilopediaText": [{"text": "-20% maintenance for military units."}], "uniques": ["Gain a free [Conscription Legacy] [in capital] <hidden from users>", "Unavailable <if [Conscription Legacy] is constructed>"]},
+            {"text": "Factory System", "civilopediaText": [{"text": "+10% Production towards buildings in all cities."}], "uniques": ["Gain a free [Factory System Legacy] [in capital] <hidden from users>", "Unavailable <if [Factory System Legacy] is constructed>"]},
+            {"text": "Public Schools", "civilopediaText": [{"text": "+2 Science from every Public School."}], "uniques": ["Gain a free [Public Schools Legacy] [in capital] <hidden from users>", "Unavailable <if [Public Schools Legacy] is constructed>"]},
+            {"text": "Rising Star", "civilopediaText": [{"text": "We lag behind the world. Take a free technology instead of a Legacy."}], "uniques": ["Free Technology", "Only available <when number of [Techs Known] is less than [([[Techs Known] resource of [Major] Civilizations] - [Techs Known]) / max(1, [Remaining [Major] Civilizations] - 1) - 2]>", "[+100]% weight to this choice for AI decisions"]},
+        ]
+    },
+    {
+        "name": "Modern Legacy",
+        "text": "The modern world demands a choice of priorities.",
+        "presentation": "Alert",
+        "choices": [
+            {"text": "Total Mobilization", "civilopediaText": [{"text": "+15% Production towards military units while at war. War Weariness falls 1 faster per turn."}], "uniques": ["Gain a free [Total Mobilization Legacy] [in capital] <hidden from users>", "Unavailable <if [Total Mobilization Legacy] is constructed>"]},
+            {"text": "Consumerism", "civilopediaText": [{"text": "+1 Happiness from each type of luxury resource."}], "uniques": ["Gain a free [Consumerism Legacy] [in capital] <hidden from users>", "Unavailable <if [Consumerism Legacy] is constructed>"]},
+            {"text": "Scientific Method", "civilopediaText": [{"text": "+2 Science from every University."}], "uniques": ["Gain a free [Scientific Method Legacy] [in capital] <hidden from users>", "Unavailable <if [Scientific Method Legacy] is constructed>"]},
+            {"text": "Rising Star", "civilopediaText": [{"text": "We lag behind the world. Take a free technology instead of a Legacy."}], "uniques": ["Free Technology", "Only available <when number of [Techs Known] is less than [([[Techs Known] resource of [Major] Civilizations] - [Techs Known]) / max(1, [Remaining [Major] Civilizations] - 1) - 2]>", "[+100]% weight to this choice for AI decisions"]},
+        ]
+    },
+    {
+        "name": "Atomic Legacy",
+        "text": "The atom has been split. What will keep our nation safe and strong?",
+        "presentation": "Alert",
+        "choices": [
+            {"text": "Deterrence", "civilopediaText": [{"text": "+25% Strength for cities."}], "uniques": ["Gain a free [Deterrence Legacy] [in capital] <hidden from users>", "Unavailable <if [Deterrence Legacy] is constructed>"]},
+            {"text": "Welfare State", "civilopediaText": [{"text": "-15% Unhappiness from population."}], "uniques": ["Gain a free [Welfare State Legacy] [in capital] <hidden from users>", "Unavailable <if [Welfare State Legacy] is constructed>"]},
+            {"text": "Space Race", "civilopediaText": [{"text": "+15% Production towards spaceship parts."}], "uniques": ["Gain a free [Space Race Legacy] [in capital] <hidden from users>", "Unavailable <if [Space Race Legacy] is constructed>"]},
+            {"text": "Rising Star", "civilopediaText": [{"text": "We lag behind the world. Take a free technology instead of a Legacy."}], "uniques": ["Free Technology", "Only available <when number of [Techs Known] is less than [([[Techs Known] resource of [Major] Civilizations] - [Techs Known]) / max(1, [Remaining [Major] Civilizations] - 1) - 2]>", "[+100]% weight to this choice for AI decisions"]},
+        ]
+    },
+    {
+        "name": "Information Legacy",
+        "text": "A connected world. What will our final legacy be?",
+        "presentation": "Alert",
+        "choices": [
+            {"text": "Cyber Warfare", "civilopediaText": [{"text": "New military units start with 15 XP."}], "uniques": ["Gain a free [Cyber Warfare Legacy] [in capital] <hidden from users>", "Unavailable <if [Cyber Warfare Legacy] is constructed>"]},
+            {"text": "Globalization", "civilopediaText": [{"text": "+15% Gold in all cities."}], "uniques": ["Gain a free [Globalization Legacy] [in capital] <hidden from users>", "Unavailable <if [Globalization Legacy] is constructed>"]},
+            {"text": "Digital Culture", "civilopediaText": [{"text": "+15% Culture in all cities."}], "uniques": ["Gain a free [Digital Culture Legacy] [in capital] <hidden from users>", "Unavailable <if [Digital Culture Legacy] is constructed>"]},
+            {"text": "Rising Star", "civilopediaText": [{"text": "We lag behind the world. Take a free technology instead of a Legacy."}], "uniques": ["Free Technology", "Only available <when number of [Techs Known] is less than [([[Techs Known] resource of [Major] Civilizations] - [Techs Known]) / max(1, [Remaining [Major] Civilizations] - 1) - 2]>", "[+100]% weight to this choice for AI decisions"]},
+        ]
+    },
+    // <<< LEGACIES
+]

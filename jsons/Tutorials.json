@@ -1,0 +1,109 @@
+[
+  {
+    "name": "The Long Game",
+    "civilopediaText": [
+      {
+        "text": "Welcome to The Long Game: Unciv's Gods & Kings with more to plan, more to choose and more that can happen."
+      },
+      {
+        "text": "New systems at a glance (each has its own article in this category):"
+      },
+      {
+        "text": "• Quarters: light districts. Pick a tile, it works for free and gains from its neighbours."
+      },
+      {
+        "text": "• Insights: techs get 40% cheaper when you do something related. Read the tech descriptions."
+      },
+      {
+        "text": "• Legacies: every era, choose one permanent bonus for your civilization."
+      },
+      {
+        "text": "• War Weariness and Imperial Strain: wars and overexpansion have a price, shown in the top bar."
+      },
+      {
+        "text": "• Events: conquests, alliances, golden ages and lost cities ask for decisions."
+      },
+      {
+        "text": "• Support units and morale: escort your rams and medics, and watch out for Shaken units."
+      }
+    ]
+  },
+  {
+    "name": "Quarters",
+    "civilopediaText": [
+      {
+        "text": "Quarters are city buildings that place a special tile improvement where you choose: Academy (Science), Market (Gold), Sacred Grove (Faith and Culture), Artisan (Production) and Garrison (defence)."
+      },
+      {
+        "text": "The Quarter's tile always produces its full yield, even without a citizen working it, plus +1 for each matching neighbour: Mountains and Jungle for the Academy, Rivers and luxuries for the Market, Forests and Mountains for the Sacred Grove, Mines, Quarries and Lumber Mills for the Artisan. Every Quarter also likes other Quarters."
+      },
+      {
+        "text": "Universities need an Academy Quarter, Banks a Market Quarter, Workshops an Artisan Quarter and the Grand Temple a Sacred Grove. A city needs 3 population to build a Quarter. Enemies can pillage Quarter tiles."
+      }
+    ]
+  },
+  {
+    "name": "Insights",
+    "civilopediaText": [
+      {
+        "text": "Many technologies have an Insight: do something related (build 2 Mines, meet another civilization, defeat a unit…) and you immediately gain 40% of that technology."
+      },
+      {
+        "text": "Each Insight works once. Its condition is shown in the technology's description. Insights are checked whenever you finish a technology or any city completes a building."
+      },
+      {
+        "text": "Early technologies cost 25% more to make up for it: players who explore, build and fight research faster than players who only stack science."
+      }
+    ]
+  },
+  {
+    "name": "Legacies",
+    "civilopediaText": [
+      {
+        "text": "When you found your first city, and every time you enter a new era, you choose one of three Legacies: permanent bonuses that shape your civilization (military, economy or culture/science)."
+      },
+      {
+        "text": "Legacies appear as special buildings in your capital and move with it. If you are more than 2 technologies behind the other civilizations' average, a fourth option appears: Rising Star, a free technology."
+      }
+    ]
+  },
+  {
+    "name": "War Weariness",
+    "civilopediaText": [
+      {
+        "text": "War Weariness (top bar) grows while you are at war with major civilizations, when you declare war, lose units, and conquer or lose cities. Every 5 points add +5% unhappiness from population, up to +50%."
+      },
+      {
+        "text": "At peace it falls each turn, and ending a war halves it. Honor, the Aztecs, the Great Bath and the Total Mobilization Legacy help you recover faster."
+      },
+      {
+        "text": "When someone declares war on you, Call to Arms (Mobilization) speeds up military production. When a war ends, Reconstruction boosts production for a while. If you lose a city, you can Rally the Nation."
+      }
+    ]
+  },
+  {
+    "name": "Imperial Strain",
+    "civilopediaText": [
+      {
+        "text": "Imperial Strain (top bar) counts how many cities you have beyond 125% of what the other civilizations average, with one city free."
+      },
+      {
+        "text": "Each point makes technologies 4% and policies 5% more expensive, and adds 10% unhappiness from the number of cities. A bigger empire is still stronger, just with diminishing returns. Rome tolerates Strain better than others."
+      }
+    ]
+  },
+  {
+    "name": "Support units and morale",
+    "civilopediaText": [
+      {
+        "text": "Battering Rams and Siege Towers give adjacent melee units +30%/+40% Strength against cities. Field Medics heal adjacent units. They are civilians: enemies can capture them, so keep them escorted."
+      },
+      {
+        "text": "A unit that loses 50 or more HP in a single attack becomes Shaken (-15% Strength for a turn). A unit that defeats an enemy becomes Emboldened (+10% Strength for 2 turns)."
+      },
+      {
+        "text": "Mercenary Companies can only be bought with Gold, never trained, and cost more upkeep."
+      }
+    ]
+  }
+]

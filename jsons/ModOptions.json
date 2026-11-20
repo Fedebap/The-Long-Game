@@ -1,0 +1,9 @@
+{
+    "isBaseRuleset": true,
+    "topics": ["unciv-mod-rulesets"],
+    "constants": {
+        // A7 early-rush cushion: vanilla 8.0 / 0.2
+        "cityStrengthBase": 10.0,
+        "cityStrengthFromGarrison": 0.25
+    }
+}
