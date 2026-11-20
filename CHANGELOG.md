@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.2.1-alpha (2026-11-20)
+First playtest fixes. Start new games with it: Insight rules changed.
+
+- **Insights fixed and reworked** (from the first playtest: they fired late, in bunches, "due to constructing Monument", and even for techs already researched):
+  - Checked at the **start of every turn**, and only for techs you haven't researched yet. No more Insights (or Star Gazers / House of Wisdom bonuses) for known techs.
+  - An Insight now makes its tech **cheaper to research** instead of adding progress. You can earn it long before you research the tech; nothing is wasted, and the research cost shows the discount.
+  - A short **"Insight!" popup** tells you which tech got cheaper and why.
+  - **Science pace back to roughly vanilla:** Insights are now **33%** (Babylon 50%) and techs cost **+33%** (was +25%). About 20 of the easiest conditions are harder (Masonry ← a Palisade, Civil Service ← capital at 10 population, Education ← 3 Academy Quarters, Architecture ← 6 Quarters, Fertilizer ← 3 Windmills…).
+  - Known quirk: while you research a tech with an Insight, the tech screen shows every tech with that discount (the research itself is correct).
+
 ## v0.2.0-alpha (2026-11-20)
 Built on v0.1.0-alpha. Start new games with it: rules changed, so ongoing v0.1 multiplayer games should finish on v0.1.
 

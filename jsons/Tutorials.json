@@ -12,7 +12,7 @@
         "text": "• Quarters: light districts. Pick a tile, it works for free and gains from its neighbours."
       },
       {
-        "text": "• Insights: techs get 40% cheaper when you do something related. Read the tech descriptions."
+        "text": "• Insights: techs get 33% cheaper when you do something related. Read the tech descriptions."
       },
       {
         "text": "• Legacies: every era, choose one permanent bonus for your civilization."
@@ -49,13 +49,13 @@
     "name": "Insights",
     "civilopediaText": [
       {
-        "text": "Many technologies have an Insight: do something related (build 2 Mines, meet another civilization, defeat a unit…) and you immediately gain 40% of that technology."
+        "text": "Many technologies have an Insight: do something related (build 2 Mines, meet another civilization, defeat a unit…) and that technology becomes 33% cheaper to research."
       },
       {
-        "text": "Each Insight works once. Its condition is shown in the technology's description. Insights are checked whenever you finish a technology or any city completes a building."
+        "text": "Each Insight works once and is checked at the start of every turn, only for technologies you haven't researched yet. A popup tells you when you earn one. You can earn an Insight long before you research its technology: the discount waits for you and shows in the research cost. Note: while you research a technology that has an Insight, the technology screen shows every other technology with the same discount. Select one to see its real cost; the research itself is always correct."
       },
       {
-        "text": "Almost every technology has an Insight. Technologies cost 25% more to make up for it: players who explore, build and fight research faster than players who only stack science."
+        "text": "Almost every technology has an Insight. Technologies cost 33% more to make up for it: with about three quarters of the Insights you research at the usual speed, with all of them a bit faster, and with none much slower."
       }
     ]
   },

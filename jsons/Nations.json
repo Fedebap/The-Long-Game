@@ -34,9 +34,9 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
 		"uniques": [
-			// The Long Game: Insights civ: no free Great Scientist at Writing (snowball), Insights +20% (tools/gen_insights.py)
+			// The Long Game: Insights civ: no free Great Scientist at Writing (snowball), Insights 50% instead of 33% (tools/gen_insights.py NATION_BONUS)
 			"[Great Scientist] is earned [33]% faster",
-			"Comment [Insights grant 60% of a technology instead of 40%]"
+			"Comment [Insights make a technology 50% cheaper instead of 33%]"
 		],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",

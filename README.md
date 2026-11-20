@@ -14,7 +14,7 @@ both sides. Big leads still have to be defended, so games stay interesting longe
 
 - **Quarters.** Light districts: build an Academy, Market, Sacred Grove, Artisan or Garrison Quarter and pick its tile.
   The tile works for free, and neighbours (mountains, rivers, mines, other Quarters…) add to it. Some later buildings need the matching Quarter.
-- **Insights.** Techs get a 40% boost when you do something related (build 2 Mines → Bronze Working). Check the tech's description.
+- **Insights.** Techs get 33% cheaper when you do something related (build 2 Mines → Bronze Working). Check the tech's description.
 - **Legacies.** Each new era you choose one of three permanent bonuses (Legions, Banking, Public Schools…), which build up
   your civ's identity over the game. Civs behind in tech can take a free tech instead.
 - **Events.** Pick how to wage a war you declare, decide what happens to conquered cities, pick a perk when you sign an

@@ -9,7 +9,7 @@ edificio y opción de evento indica su efecto exacto.
 ## En pocas palabras
 
 1. **Hacer cosas acelera la investigación.** Casi todas las tecnologías tienen un *Insight*: construir 2 Mines, conocer
-   otra civilización, derrotar una unidad… y obtienes el 40% de esa tecnología gratis. La condición está en la
+   otra civilización, derrotar una unidad… y esa tecnología pasa a costar un 33% menos. La condición está en la
    descripción de la tecnología.
 2. **Construye Quarters.** Distritos ligeros: eliges una casilla, que rinde sin que nadie la trabaje, y sus vecinas
    le suman. Varios edificios posteriores (University, Bank, Workshop, Grand Temple) necesitan su Quarter.
@@ -29,19 +29,23 @@ edificio y opción de evento indica su efecto exacto.
 - Los **Slinger** son unidades a distancia baratas del inicio y mejoran a Archer.
 - Tu **primera ciudad activa el Founding Myth**: Warrior Clans (militar), Master Builders (producción) o Mystic Visions
   (fe y cultura).
-- Los primeros Insights salen solos: fundar una 2.ª ciudad (Pottery), conocer una civilización (Writing), construir un
-  Monument (Masonry), tener 3 Hill (Mining), derrotar una unidad (Archery). Planea tus primeras tecnologías según lo
+- Los primeros Insights salen solos: fundar una 2.ª ciudad (Pottery), conocer una civilización (Writing), construir una
+  Palisade (Masonry), tener 3 Hill (Mining), derrotar una unidad (Archery). Planea tus primeras tecnologías según lo
   que vayas a hacer de todos modos.
-- Las primeras tecnologías cuestan un 25% más que en el juego base. Los Insights lo compensan con creces.
+- Las tecnologías cuestan un 33% más que en el juego base. Los Insights lo compensan.
 
 ## Insights (impulsos tecnológicos)
 
-- Todas las tecnologías salvo Agriculture y Future Tech (78 en total) tienen un Insight que vale el **40%** de la tecnología.
-- Se comprueban cada vez que terminas una tecnología o cualquier ciudad termina un edificio. Cada uno se activa una sola vez.
-- Las tecnologías cuestan un **+25%**. Con la mitad de los Insights investigas a la velocidad
-  normal; con la mayoría, más rápido; sin ellos, más lento.
-- Muchos Insights posteriores usan los sistemas nuevos: Guilds ← un Artisan Quarter, Education ← 2 Academy Quarter,
-  Architecture ← tener 4 Quarters, Gunpowder ← 5 victorias, Rifling ← 10 victorias.
+- Todas las tecnologías salvo Agriculture y Future Tech (78 en total) tienen un Insight que las hace **un 33% más baratas**.
+- Se comprueban al inicio de cada turno, solo para tecnologías que aún no investigaste. Cada uno funciona una sola vez,
+  y una ventana te avisa cuando lo consigues.
+- Puedes conseguir un Insight mucho antes de investigar la tecnología: el descuento te espera y se ve en su costo.
+- Las tecnologías cuestan un **+33%**. Con unas tres cuartas partes de los Insights investigas a la velocidad normal;
+  con todos, un 10% más rápido; sin ellos, un tercio más lento.
+- **Detalle de la pantalla de tecnologías:** mientras investigas una tecnología con Insight, la pantalla muestra *todas*
+  las tecnologías con ese descuento. Selecciona una para ver su costo real. La investigación en sí siempre es correcta.
+- Muchos Insights posteriores usan los sistemas nuevos: Guilds ← un Artisan Quarter, Education ← 3 Academy Quarter,
+  Architecture ← tener 6 Quarters, Gunpowder ← 5 victorias, Rifling ← 10 victorias.
 
 ## Quarters (distritos ligeros)
 
@@ -166,7 +170,7 @@ unidades pelean un 33% peor; por debajo de −20 aparecen rebeldes por su cuenta
 | **Egypt** | Ramesses II | +20% de Production en maravillas, sus Artisan Quarter rinden un +50%. War Chariot, Burial Tomb |
 | **Aztecs** | Montezuma I | Culture por cada unidad que mata, la War Weariness baja 1 más por turno. Jaguar, Floating Gardens |
 | **Byzantium** | Theodora | Una creencia extra al fundar una religión, sus Sacred Grove rinden un +50%. Dromon, Cataphract |
-| **Babylon** | Nebuchadnezzar II | Sus Insights dan el 60% en vez del 40%, Great Scientist un 33% más rápido. Bowman, Walls of Babylon |
+| **Babylon** | Nebuchadnezzar II | Sus Insights abaratan las tecnologías un 50% en vez de un 33%, Great Scientist un 33% más rápido. Bowman, Walls of Babylon |
 | **Mapuche** | Lautaro | +20% de fuerza contra civilizaciones con más ciudades, sus unidades se curan 10 al matar. Malón Raider (especialista en saqueo) |
 | **Vietnam** | Bà Triệu | +25% de fuerza en Forest, Jungle y Marsh propios; los enemigos gastan 1 movimiento extra en su territorio. Voi Chiến |
 | **Mali** | Mansa Musa | Sus Market Quarter rinden el doble, +1 Gold en Desert, pero −10% de Production en edificios. Suguba |

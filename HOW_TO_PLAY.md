@@ -7,8 +7,8 @@ in the in-game Civilopedia, and every tech, building and event choice states its
 
 ## The short version
 
-1. **Do things to research faster.** Most techs have an *Insight*: build 2 Mines, meet a civ, defeat a unit… and you
-   get 40% of that tech for free. The condition is in the tech's description.
+1. **Do things to research faster.** Most techs have an *Insight*: build 2 Mines, meet a civ, defeat a unit… and that
+   tech becomes 33% cheaper to research. The condition is in the tech's description.
 2. **Build Quarters.** Light districts: pick a tile, it yields without a worker, and its neighbours add to it. Later
    buildings (University, Bank, Workshop, Grand Temple) need the matching Quarter.
 3. **Pick a Legacy each era.** A permanent bonus in your capital; your choices add up to your civ's identity.
@@ -26,18 +26,22 @@ in the in-game Civilopedia, and every tech, building and event choice states its
 - **Slingers** are cheap early ranged units; they upgrade to Archers.
 - Your **first city triggers the Founding Myth**: Warrior Clans (military), Master Builders (production) or Mystic Visions
   (faith and culture).
-- Early Insights come naturally: found a 2nd city (Pottery), meet a civ (Writing), build a Monument (Masonry), own
+- Early Insights come naturally: found a 2nd city (Pottery), meet a civ (Writing), build a Palisade (Masonry), own
   3 Hills (Mining), defeat a unit (Archery). Plan your first techs around what you'll do anyway.
-- Early techs cost 25% more than vanilla. Collecting Insights more than pays it back.
+- Techs cost 33% more than vanilla. Collecting Insights pays it back.
 
 ## Insights (tech boosts)
 
-- Every tech except Agriculture and Future Tech (78 in all) has one Insight worth **40%** of the tech.
-- Checked whenever you finish a tech or any city finishes a building. Each one fires once.
-- Techs cost **+25%**. Getting about half the Insights puts you at vanilla speed; getting most
-  of them is faster; ignoring them is slower.
-- Many later Insights use the new systems: Guilds ← an Artisan Quarter, Education ← 2 Academy Quarters,
-  Architecture ← own 4 Quarters, Gunpowder ← 5 victories, Rifling ← 10 victories.
+- Every tech except Agriculture and Future Tech (78 in all) has one Insight that makes it **33% cheaper** to research.
+- Checked at the start of every turn, only for techs you haven't researched yet. Each one works once, and a popup
+  tells you when you earn it.
+- You can earn an Insight long before you research the tech: the discount waits for you and shows in the research cost.
+- Techs cost **+33%**. With about three quarters of the Insights you research at vanilla speed; with all of them
+  about 10% faster; ignoring them is a third slower.
+- **Tech screen quirk:** while you research a tech that has an Insight, the tech screen shows *every* tech with that
+  discount. Select a tech to see its real cost. The research itself is always correct.
+- Many later Insights use the new systems: Guilds ← an Artisan Quarter, Education ← 3 Academy Quarters,
+  Architecture ← own 6 Quarters, Gunpowder ← 5 victories, Rifling ← 10 victories.
 
 ## Quarters (light districts)
 
@@ -159,7 +163,7 @@ Vanilla still applies below −10 (no growth, −50% Production, −33% unit str
 | **Egypt** | Ramesses II | +20% wonder Production, Artisan Quarters yield +50%. War Chariot, Burial Tomb |
 | **Aztecs** | Montezuma I | Culture from every kill, War Weariness recovers 1 faster per turn. Jaguar, Floating Gardens |
 | **Byzantium** | Theodora | An extra belief when founding a religion, Sacred Groves yield +50%. Dromon, Cataphract |
-| **Babylon** | Nebuchadnezzar II | Insights give 60% instead of 40%, Great Scientists 33% faster. Bowman, Walls of Babylon |
+| **Babylon** | Nebuchadnezzar II | Insights make techs 50% cheaper instead of 33%, Great Scientists 33% faster. Bowman, Walls of Babylon |
 | **Mapuche** | Lautaro | +20% strength against civs with more cities, units heal 10 HP after a kill. Malón Raider (pillage specialist) |
 | **Vietnam** | Bà Triệu | +25% strength in own Forest, Jungle and Marsh; enemies spend 1 extra movement in your land. Voi Chiến |
 | **Mali** | Mansa Musa | Market Quarters yield double, +1 Gold on Desert, but −10% building Production. Suguba |
