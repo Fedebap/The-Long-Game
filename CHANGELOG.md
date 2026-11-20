@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.1 (unreleased)
+## v0.1.0-alpha (2026-11-20)
 Baseline: Unciv **5.0.1** *Civ V – Gods & Kings* ruleset (`yairm210/Unciv@82edba7`).
 
 - Imperial Strain meter (anti-snowball): tech, policy and city-unhappiness costs scale with how far you're ahead in cities.
